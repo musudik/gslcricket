@@ -79,7 +79,7 @@ export default function Home() {
             </h1>
 
             <p className="text-lg sm:text-2xl text-white/70 max-w-xl mb-10 leading-relaxed font-light animate-fade-in-up" style={{ animationDelay: '600ms' }}>
-              16 states. 192 teams. One champion.
+              16 states. 250+ teams, 14K players. One champion.
               <br />
               <span className="text-gslc-gold font-medium">The biggest cricket league in Germany.</span>
             </p>

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "by-mun-six", "name": "Munich Sixers", "shortName": "MUN", "stateId": "by", "primaryColor": "#FF003C",
+    "players": [
+      { "id": "p001", "name": "Arjun Mehta", "role": "batsman", "teamId": "by-mun-six", "stats": { "matches": 10, "runs": 487, "wickets": 0, "average": 48.7, "strikeRate": 152.3, "economy": 0 } },
+      { "id": "p002", "name": "Tobias Braun", "role": "bowler", "teamId": "by-mun-six", "stats": { "matches": 10, "runs": 34, "wickets": 16, "average": 2.1, "strikeRate": 80.0, "economy": 6.8 } },
+      { "id": "p003", "name": "Ravi Shankar", "role": "allrounder", "teamId": "by-mun-six", "stats": { "matches": 10, "runs": 298, "wickets": 12, "average": 29.8, "strikeRate": 138.5, "economy": 7.2 } },
+      { "id": "p004", "name": "Lukas Fischer", "role": "keeper", "teamId": "by-mun-six", "stats": { "matches": 10, "runs": 210, "wickets": 0, "average": 26.2, "strikeRate": 125.0, "economy": 0 } },
+      { "id": "p005", "name": "Imran Patel", "role": "batsman", "teamId": "by-mun-six", "stats": { "matches": 10, "runs": 356, "wickets": 0, "average": 35.6, "strikeRate": 141.2, "economy": 0 } },
+      { "id": "p006", "name": "Stefan Keller", "role": "bowler", "teamId": "by-mun-six", "stats": { "matches": 10, "runs": 22, "wickets": 14, "average": 1.6, "strikeRate": 65.0, "economy": 7.5 } },
+      { "id": "p007", "name": "Ahmed Raza", "role": "bowler", "teamId": "by-mun-six", "stats": { "matches": 8, "runs": 15, "wickets": 11, "average": 1.4, "strikeRate": 55.0, "economy": 6.2 } },
+      { "id": "p008", "name": "Markus Vogel", "role": "batsman", "teamId": "by-mun-six", "stats": { "matches": 9, "runs": 189, "wickets": 0, "average": 27.0, "strikeRate": 118.0, "economy": 0 } },
+      { "id": "p009", "name": "Pradeep Kumar", "role": "allrounder", "teamId": "by-mun-six", "stats": { "matches": 10, "runs": 145, "wickets": 8, "average": 18.1, "strikeRate": 130.2, "economy": 8.0 } },
+      { "id": "p010", "name": "Jonas Hartmann", "role": "batsman", "teamId": "by-mun-six", "stats": { "matches": 7, "runs": 112, "wickets": 0, "average": 22.4, "strikeRate": 110.5, "economy": 0 } },
+      { "id": "p011", "name": "Syed Abbas", "role": "bowler", "teamId": "by-mun-six", "stats": { "matches": 6, "runs": 8, "wickets": 9, "average": 0.9, "strikeRate": 50.0, "economy": 5.9 } }
+    ]
+  },
+  {
+    "id": "by-nur-kni", "name": "Nuremberg Knights", "shortName": "NUR", "stateId": "by", "primaryColor": "#1E3A5F",
+    "players": [
+      { "id": "p012", "name": "Vikram Singh", "role": "batsman", "teamId": "by-nur-kni", "stats": { "matches": 10, "runs": 412, "wickets": 0, "average": 41.2, "strikeRate": 145.8, "economy": 0 } },
+      { "id": "p013", "name": "Felix Meier", "role": "bowler", "teamId": "by-nur-kni", "stats": { "matches": 10, "runs": 45, "wickets": 13, "average": 3.5, "strikeRate": 72.0, "economy": 7.1 } },
+      { "id": "p014", "name": "Aakash Nair", "role": "allrounder", "teamId": "by-nur-kni", "stats": { "matches": 10, "runs": 267, "wickets": 10, "average": 26.7, "strikeRate": 132.0, "economy": 7.8 } },
+      { "id": "p015", "name": "Moritz Weber", "role": "keeper", "teamId": "by-nur-kni", "stats": { "matches": 10, "runs": 178, "wickets": 0, "average": 22.2, "strikeRate": 115.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "by-aug-lio", "name": "Augsburg Lions", "shortName": "AUG", "stateId": "by", "primaryColor": "#FF8C00",
+    "players": [
+      { "id": "p016", "name": "Rahul Deshpande", "role": "batsman", "teamId": "by-aug-lio", "stats": { "matches": 10, "runs": 378, "wickets": 0, "average": 37.8, "strikeRate": 140.1, "economy": 0 } },
+      { "id": "p017", "name": "Tim Schwarz", "role": "bowler", "teamId": "by-aug-lio", "stats": { "matches": 10, "runs": 28, "wickets": 15, "average": 1.9, "strikeRate": 60.0, "economy": 6.5 } },
+      { "id": "p018", "name": "Karan Joshi", "role": "allrounder", "teamId": "by-aug-lio", "stats": { "matches": 10, "runs": 245, "wickets": 9, "average": 24.5, "strikeRate": 128.0, "economy": 7.6 } },
+      { "id": "p019", "name": "Philipp Bauer", "role": "keeper", "teamId": "by-aug-lio", "stats": { "matches": 10, "runs": 190, "wickets": 0, "average": 23.7, "strikeRate": 120.3, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "by-reg-roy", "name": "Regensburg Royals", "shortName": "REG", "stateId": "by", "primaryColor": "#7B2D8E",
+    "players": [
+      { "id": "p020", "name": "Sunil Yadav", "role": "batsman", "teamId": "by-reg-roy", "stats": { "matches": 10, "runs": 310, "wickets": 0, "average": 31.0, "strikeRate": 134.5, "economy": 0 } },
+      { "id": "p021", "name": "David Koch", "role": "bowler", "teamId": "by-reg-roy", "stats": { "matches": 10, "runs": 19, "wickets": 12, "average": 1.6, "strikeRate": 58.0, "economy": 7.0 } },
+      { "id": "p022", "name": "Nikhil Sharma", "role": "allrounder", "teamId": "by-reg-roy", "stats": { "matches": 10, "runs": 201, "wickets": 7, "average": 28.7, "strikeRate": 121.0, "economy": 8.1 } },
+      { "id": "p023", "name": "Maximilian Roth", "role": "keeper", "teamId": "by-reg-roy", "stats": { "matches": 10, "runs": 165, "wickets": 0, "average": 20.6, "strikeRate": 112.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "by-ing-vik", "name": "Ingolstadt Vikings", "shortName": "ING", "stateId": "by", "primaryColor": "#2E8B57",
+    "players": [
+      { "id": "p024", "name": "Rohan Pillai", "role": "batsman", "teamId": "by-ing-vik", "stats": { "matches": 10, "runs": 289, "wickets": 0, "average": 28.9, "strikeRate": 126.0, "economy": 0 } },
+      { "id": "p025", "name": "Niklas Richter", "role": "bowler", "teamId": "by-ing-vik", "stats": { "matches": 10, "runs": 31, "wickets": 11, "average": 2.8, "strikeRate": 68.0, "economy": 7.3 } },
+      { "id": "p026", "name": "Anand Mishra", "role": "allrounder", "teamId": "by-ing-vik", "stats": { "matches": 10, "runs": 220, "wickets": 8, "average": 22.0, "strikeRate": 119.0, "economy": 7.9 } },
+      { "id": "p027", "name": "Jan Hofmann", "role": "keeper", "teamId": "by-ing-vik", "stats": { "matches": 10, "runs": 155, "wickets": 0, "average": 19.4, "strikeRate": 108.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "by-wur-war", "name": "Würzburg Warriors", "shortName": "WUR", "stateId": "by", "primaryColor": "#B8860B",
+    "players": [
+      { "id": "p028", "name": "Deepak Chauhan", "role": "batsman", "teamId": "by-wur-war", "stats": { "matches": 10, "runs": 345, "wickets": 0, "average": 34.5, "strikeRate": 137.0, "economy": 0 } },
+      { "id": "p029", "name": "Sebastian Wolf", "role": "bowler", "teamId": "by-wur-war", "stats": { "matches": 10, "runs": 40, "wickets": 14, "average": 2.9, "strikeRate": 70.0, "economy": 6.9 } },
+      { "id": "p030", "name": "Amit Verma", "role": "allrounder", "teamId": "by-wur-war", "stats": { "matches": 10, "runs": 198, "wickets": 6, "average": 33.0, "strikeRate": 124.0, "economy": 8.3 } },
+      { "id": "p031", "name": "Patrick Lang", "role": "keeper", "teamId": "by-wur-war", "stats": { "matches": 10, "runs": 142, "wickets": 0, "average": 17.8, "strikeRate": 105.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "by-erl-eag", "name": "Erlangen Eagles", "shortName": "ERL", "stateId": "by", "primaryColor": "#DC143C",
+    "players": [
+      { "id": "p032", "name": "Sachin Reddy", "role": "batsman", "teamId": "by-erl-eag", "stats": { "matches": 10, "runs": 398, "wickets": 0, "average": 39.8, "strikeRate": 148.0, "economy": 0 } },
+      { "id": "p033", "name": "Christian Muller", "role": "bowler", "teamId": "by-erl-eag", "stats": { "matches": 10, "runs": 18, "wickets": 17, "average": 1.1, "strikeRate": 52.0, "economy": 5.8 } },
+      { "id": "p034", "name": "Harish Iyer", "role": "allrounder", "teamId": "by-erl-eag", "stats": { "matches": 10, "runs": 275, "wickets": 11, "average": 27.5, "strikeRate": 135.0, "economy": 7.4 } },
+      { "id": "p035", "name": "Alexander Klein", "role": "keeper", "teamId": "by-erl-eag", "stats": { "matches": 10, "runs": 200, "wickets": 0, "average": 25.0, "strikeRate": 122.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "by-fur-fla", "name": "Fürth Flames", "shortName": "FUR", "stateId": "by", "primaryColor": "#FF4500",
+    "players": [
+      { "id": "p036", "name": "Manish Gupta", "role": "batsman", "teamId": "by-fur-fla", "stats": { "matches": 10, "runs": 267, "wickets": 0, "average": 26.7, "strikeRate": 122.0, "economy": 0 } },
+      { "id": "p037", "name": "Florian Beck", "role": "bowler", "teamId": "by-fur-fla", "stats": { "matches": 10, "runs": 25, "wickets": 10, "average": 2.5, "strikeRate": 66.0, "economy": 7.7 } },
+      { "id": "p038", "name": "Tariq Khan", "role": "allrounder", "teamId": "by-fur-fla", "stats": { "matches": 10, "runs": 188, "wickets": 7, "average": 26.9, "strikeRate": 116.0, "economy": 8.0 } },
+      { "id": "p039", "name": "Dominik Ernst", "role": "keeper", "teamId": "by-fur-fla", "stats": { "matches": 10, "runs": 134, "wickets": 0, "average": 16.8, "strikeRate": 101.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "by-pas-pan", "name": "Passau Panthers", "shortName": "PAS", "stateId": "by", "primaryColor": "#000000",
+    "players": [
+      { "id": "p040", "name": "Vijay Saxena", "role": "batsman", "teamId": "by-pas-pan", "stats": { "matches": 10, "runs": 302, "wickets": 0, "average": 30.2, "strikeRate": 130.0, "economy": 0 } },
+      { "id": "p041", "name": "Michael Neumann", "role": "bowler", "teamId": "by-pas-pan", "stats": { "matches": 10, "runs": 33, "wickets": 13, "average": 2.5, "strikeRate": 62.0, "economy": 6.6 } },
+      { "id": "p042", "name": "Rizwan Ali", "role": "allrounder", "teamId": "by-pas-pan", "stats": { "matches": 10, "runs": 212, "wickets": 9, "average": 23.6, "strikeRate": 125.0, "economy": 7.5 } },
+      { "id": "p043", "name": "Thomas Schreiber", "role": "keeper", "teamId": "by-pas-pan", "stats": { "matches": 10, "runs": 148, "wickets": 0, "average": 18.5, "strikeRate": 109.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "by-lan-str", "name": "Landshut Strikers", "shortName": "LAN", "stateId": "by", "primaryColor": "#4169E1",
+    "players": [
+      { "id": "p044", "name": "Anil Thakur", "role": "batsman", "teamId": "by-lan-str", "stats": { "matches": 10, "runs": 334, "wickets": 0, "average": 33.4, "strikeRate": 139.0, "economy": 0 } },
+      { "id": "p045", "name": "Paul Zimmermann", "role": "bowler", "teamId": "by-lan-str", "stats": { "matches": 10, "runs": 27, "wickets": 12, "average": 2.2, "strikeRate": 64.0, "economy": 7.1 } },
+      { "id": "p046", "name": "Farhan Qureshi", "role": "allrounder", "teamId": "by-lan-str", "stats": { "matches": 10, "runs": 234, "wickets": 8, "average": 29.2, "strikeRate": 128.0, "economy": 7.6 } },
+      { "id": "p047", "name": "Kevin Brandt", "role": "keeper", "teamId": "by-lan-str", "stats": { "matches": 10, "runs": 169, "wickets": 0, "average": 21.1, "strikeRate": 114.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "by-ros-rac", "name": "Rosenheim Racers", "shortName": "ROS", "stateId": "by", "primaryColor": "#20B2AA",
+    "players": [
+      { "id": "p048", "name": "Sameer Khan", "role": "batsman", "teamId": "by-ros-rac", "stats": { "matches": 10, "runs": 256, "wickets": 0, "average": 25.6, "strikeRate": 120.0, "economy": 0 } },
+      { "id": "p049", "name": "Andreas Schulz", "role": "bowler", "teamId": "by-ros-rac", "stats": { "matches": 10, "runs": 20, "wickets": 9, "average": 2.2, "strikeRate": 70.0, "economy": 8.1 } },
+      { "id": "p050", "name": "Wasim Akram", "role": "allrounder", "teamId": "by-ros-rac", "stats": { "matches": 10, "runs": 178, "wickets": 6, "average": 29.7, "strikeRate": 113.0, "economy": 8.4 } },
+      { "id": "p051", "name": "Matthias Frank", "role": "keeper", "teamId": "by-ros-rac", "stats": { "matches": 10, "runs": 125, "wickets": 0, "average": 15.6, "strikeRate": 98.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "by-bay-bol", "name": "Bayreuth Bolts", "shortName": "BAY", "stateId": "by", "primaryColor": "#FFD700",
+    "players": [
+      { "id": "p052", "name": "Gaurav Tiwari", "role": "batsman", "teamId": "by-bay-bol", "stats": { "matches": 10, "runs": 290, "wickets": 0, "average": 29.0, "strikeRate": 133.0, "economy": 0 } },
+      { "id": "p053", "name": "Robert Schuster", "role": "bowler", "teamId": "by-bay-bol", "stats": { "matches": 10, "runs": 14, "wickets": 10, "average": 1.4, "strikeRate": 56.0, "economy": 7.2 } },
+      { "id": "p054", "name": "Sanjay Patel", "role": "allrounder", "teamId": "by-bay-bol", "stats": { "matches": 10, "runs": 205, "wickets": 7, "average": 29.3, "strikeRate": 118.0, "economy": 7.8 } },
+      { "id": "p055", "name": "Daniel Wagner", "role": "keeper", "teamId": "by-bay-bol", "stats": { "matches": 10, "runs": 156, "wickets": 0, "average": 19.5, "strikeRate": 110.0, "economy": 0 } }
+    ]
+  },
+
+  {
+    "id": "be-ber-bla", "name": "Berlin Blasters", "shortName": "BLB", "stateId": "be", "primaryColor": "#E91E63",
+    "players": [
+      { "id": "p101", "name": "Rohit Kapoor", "role": "batsman", "teamId": "be-ber-bla", "stats": { "matches": 10, "runs": 465, "wickets": 0, "average": 46.5, "strikeRate": 155.0, "economy": 0 } },
+      { "id": "p102", "name": "Erik Lindner", "role": "bowler", "teamId": "be-ber-bla", "stats": { "matches": 10, "runs": 38, "wickets": 18, "average": 2.1, "strikeRate": 48.0, "economy": 5.6 } },
+      { "id": "p103", "name": "Omar Farooq", "role": "allrounder", "teamId": "be-ber-bla", "stats": { "matches": 10, "runs": 312, "wickets": 13, "average": 31.2, "strikeRate": 142.0, "economy": 7.0 } },
+      { "id": "p104", "name": "Jan-Peter Wolff", "role": "keeper", "teamId": "be-ber-bla", "stats": { "matches": 10, "runs": 224, "wickets": 0, "average": 28.0, "strikeRate": 130.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "be-spa-tig", "name": "Spandau Tigers", "shortName": "SPT", "stateId": "be", "primaryColor": "#FF6F00",
+    "players": [
+      { "id": "p105", "name": "Naveen Krishnan", "role": "batsman", "teamId": "be-spa-tig", "stats": { "matches": 10, "runs": 389, "wickets": 0, "average": 38.9, "strikeRate": 143.0, "economy": 0 } },
+      { "id": "p106", "name": "Bastian Krause", "role": "bowler", "teamId": "be-spa-tig", "stats": { "matches": 10, "runs": 29, "wickets": 15, "average": 1.9, "strikeRate": 55.0, "economy": 6.4 } },
+      { "id": "p107", "name": "Hassan Sheikh", "role": "allrounder", "teamId": "be-spa-tig", "stats": { "matches": 10, "runs": 234, "wickets": 10, "average": 23.4, "strikeRate": 131.0, "economy": 7.5 } },
+      { "id": "p108", "name": "Lennart Fuchs", "role": "keeper", "teamId": "be-spa-tig", "stats": { "matches": 10, "runs": 187, "wickets": 0, "average": 23.4, "strikeRate": 118.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "be-kre-kin", "name": "Kreuzberg Kings", "shortName": "KRK", "stateId": "be", "primaryColor": "#9C27B0",
+    "players": [
+      { "id": "p109", "name": "Ajay Bhatt", "role": "batsman", "teamId": "be-kre-kin", "stats": { "matches": 10, "runs": 356, "wickets": 0, "average": 35.6, "strikeRate": 138.0, "economy": 0 } },
+      { "id": "p110", "name": "Henrik Lehmann", "role": "bowler", "teamId": "be-kre-kin", "stats": { "matches": 10, "runs": 22, "wickets": 12, "average": 1.8, "strikeRate": 60.0, "economy": 7.2 } },
+      { "id": "p111", "name": "Bilal Hussain", "role": "allrounder", "teamId": "be-kre-kin", "stats": { "matches": 10, "runs": 278, "wickets": 9, "average": 27.8, "strikeRate": 129.0, "economy": 7.8 } },
+      { "id": "p112", "name": "Sven Hauser", "role": "keeper", "teamId": "be-kre-kin", "stats": { "matches": 10, "runs": 167, "wickets": 0, "average": 20.9, "strikeRate": 112.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "be-cha-cha", "name": "Charlottenburg Chargers", "shortName": "CHA", "stateId": "be", "primaryColor": "#00BCD4",
+    "players": [
+      { "id": "p113", "name": "Pranav Menon", "role": "batsman", "teamId": "be-cha-cha", "stats": { "matches": 10, "runs": 321, "wickets": 0, "average": 32.1, "strikeRate": 130.0, "economy": 0 } },
+      { "id": "p114", "name": "Marcel Voigt", "role": "bowler", "teamId": "be-cha-cha", "stats": { "matches": 10, "runs": 41, "wickets": 11, "average": 3.7, "strikeRate": 66.0, "economy": 7.6 } },
+      { "id": "p115", "name": "Zain Malik", "role": "allrounder", "teamId": "be-cha-cha", "stats": { "matches": 10, "runs": 198, "wickets": 8, "average": 24.8, "strikeRate": 122.0, "economy": 7.9 } },
+      { "id": "p116", "name": "Oliver Berger", "role": "keeper", "teamId": "be-cha-cha", "stats": { "matches": 10, "runs": 145, "wickets": 0, "average": 18.1, "strikeRate": 105.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "be-tem-thu", "name": "Tempelhof Thunder", "shortName": "TEM", "stateId": "be", "primaryColor": "#3F51B5",
+    "players": [
+      { "id": "p117", "name": "Sourav Das", "role": "batsman", "teamId": "be-tem-thu", "stats": { "matches": 10, "runs": 298, "wickets": 0, "average": 29.8, "strikeRate": 126.0, "economy": 0 } },
+      { "id": "p118", "name": "Kai Hofmann", "role": "bowler", "teamId": "be-tem-thu", "stats": { "matches": 10, "runs": 18, "wickets": 14, "average": 1.3, "strikeRate": 50.0, "economy": 6.1 } },
+      { "id": "p119", "name": "Usman Yousuf", "role": "allrounder", "teamId": "be-tem-thu", "stats": { "matches": 10, "runs": 256, "wickets": 10, "average": 25.6, "strikeRate": 133.0, "economy": 7.3 } },
+      { "id": "p120", "name": "Peter Engel", "role": "keeper", "teamId": "be-tem-thu", "stats": { "matches": 10, "runs": 189, "wickets": 0, "average": 23.6, "strikeRate": 117.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "be-neu-nav", "name": "Neukölln Navigators", "shortName": "NEU", "stateId": "be", "primaryColor": "#4CAF50",
+    "players": [
+      { "id": "p121", "name": "Manoj Tiwari", "role": "batsman", "teamId": "be-neu-nav", "stats": { "matches": 10, "runs": 276, "wickets": 0, "average": 27.6, "strikeRate": 121.0, "economy": 0 } },
+      { "id": "p122", "name": "Lars Dietrich", "role": "bowler", "teamId": "be-neu-nav", "stats": { "matches": 10, "runs": 35, "wickets": 11, "average": 3.2, "strikeRate": 64.0, "economy": 7.4 } },
+      { "id": "p123", "name": "Faisal Ahmed", "role": "allrounder", "teamId": "be-neu-nav", "stats": { "matches": 10, "runs": 210, "wickets": 7, "average": 30.0, "strikeRate": 119.0, "economy": 8.1 } },
+      { "id": "p124", "name": "Simon Graf", "role": "keeper", "teamId": "be-neu-nav", "stats": { "matches": 10, "runs": 140, "wickets": 0, "average": 17.5, "strikeRate": 104.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "be-pan-pho", "name": "Pankow Phoenix", "shortName": "PAN", "stateId": "be", "primaryColor": "#F44336",
+    "players": [
+      { "id": "p125", "name": "Ashwin Rajan", "role": "batsman", "teamId": "be-pan-pho", "stats": { "matches": 10, "runs": 334, "wickets": 0, "average": 33.4, "strikeRate": 136.0, "economy": 0 } },
+      { "id": "p126", "name": "Nils Heinemann", "role": "bowler", "teamId": "be-pan-pho", "stats": { "matches": 10, "runs": 16, "wickets": 13, "average": 1.2, "strikeRate": 54.0, "economy": 6.8 } },
+      { "id": "p127", "name": "Kamran Shah", "role": "allrounder", "teamId": "be-pan-pho", "stats": { "matches": 10, "runs": 245, "wickets": 8, "average": 30.6, "strikeRate": 127.0, "economy": 7.7 } },
+      { "id": "p128", "name": "Georg Stark", "role": "keeper", "teamId": "be-pan-pho", "stats": { "matches": 10, "runs": 178, "wickets": 0, "average": 22.2, "strikeRate": 115.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "be-mit-mav", "name": "Mitte Mavericks", "shortName": "MIT", "stateId": "be", "primaryColor": "#607D8B",
+    "players": [
+      { "id": "p129", "name": "Siddharth Rao", "role": "batsman", "teamId": "be-mit-mav", "stats": { "matches": 10, "runs": 245, "wickets": 0, "average": 24.5, "strikeRate": 115.0, "economy": 0 } },
+      { "id": "p130", "name": "Finn Schröder", "role": "bowler", "teamId": "be-mit-mav", "stats": { "matches": 10, "runs": 42, "wickets": 9, "average": 4.7, "strikeRate": 72.0, "economy": 8.2 } },
+      { "id": "p131", "name": "Junaid Siddiqui", "role": "allrounder", "teamId": "be-mit-mav", "stats": { "matches": 10, "runs": 189, "wickets": 6, "average": 31.5, "strikeRate": 112.0, "economy": 8.5 } },
+      { "id": "p132", "name": "Leon Albrecht", "role": "keeper", "teamId": "be-mit-mav", "stats": { "matches": 10, "runs": 123, "wickets": 0, "average": 15.4, "strikeRate": 98.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "be-lic-lyn", "name": "Lichtenberg Lynx", "shortName": "LIC", "stateId": "be", "primaryColor": "#795548",
+    "players": [
+      { "id": "p133", "name": "Pankaj Dubey", "role": "batsman", "teamId": "be-lic-lyn", "stats": { "matches": 10, "runs": 267, "wickets": 0, "average": 26.7, "strikeRate": 118.0, "economy": 0 } },
+      { "id": "p134", "name": "Timo Lorenz", "role": "bowler", "teamId": "be-lic-lyn", "stats": { "matches": 10, "runs": 28, "wickets": 10, "average": 2.8, "strikeRate": 66.0, "economy": 7.8 } },
+      { "id": "p135", "name": "Nadeem Iqbal", "role": "allrounder", "teamId": "be-lic-lyn", "stats": { "matches": 10, "runs": 198, "wickets": 7, "average": 28.3, "strikeRate": 114.0, "economy": 8.0 } },
+      { "id": "p136", "name": "Hannes Pietsch", "role": "keeper", "teamId": "be-lic-lyn", "stats": { "matches": 10, "runs": 134, "wickets": 0, "average": 16.8, "strikeRate": 100.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "be-ste-sta", "name": "Steglitz Stallions", "shortName": "STE", "stateId": "be", "primaryColor": "#FF9800",
+    "players": [
+      { "id": "p137", "name": "Vikas Malhotra", "role": "batsman", "teamId": "be-ste-sta", "stats": { "matches": 10, "runs": 312, "wickets": 0, "average": 31.2, "strikeRate": 132.0, "economy": 0 } },
+      { "id": "p138", "name": "Jannik Sauer", "role": "bowler", "teamId": "be-ste-sta", "stats": { "matches": 10, "runs": 21, "wickets": 12, "average": 1.8, "strikeRate": 58.0, "economy": 6.9 } },
+      { "id": "p139", "name": "Adil Khan", "role": "allrounder", "teamId": "be-ste-sta", "stats": { "matches": 10, "runs": 223, "wickets": 9, "average": 24.8, "strikeRate": 125.0, "economy": 7.6 } },
+      { "id": "p140", "name": "Ruben Pfeiffer", "role": "keeper", "teamId": "be-ste-sta", "stats": { "matches": 10, "runs": 156, "wickets": 0, "average": 19.5, "strikeRate": 110.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "be-wed-wol", "name": "Wedding Wolves", "shortName": "WED", "stateId": "be", "primaryColor": "#455A64",
+    "players": [
+      { "id": "p141", "name": "Rakesh Bhandari", "role": "batsman", "teamId": "be-wed-wol", "stats": { "matches": 10, "runs": 234, "wickets": 0, "average": 23.4, "strikeRate": 110.0, "economy": 0 } },
+      { "id": "p142", "name": "Fabian Wendt", "role": "bowler", "teamId": "be-wed-wol", "stats": { "matches": 10, "runs": 30, "wickets": 8, "average": 3.8, "strikeRate": 74.0, "economy": 8.5 } },
+      { "id": "p143", "name": "Tahir Mahmood", "role": "allrounder", "teamId": "be-wed-wol", "stats": { "matches": 10, "runs": 167, "wickets": 5, "average": 33.4, "strikeRate": 106.0, "economy": 8.8 } },
+      { "id": "p144", "name": "Nico Baumann", "role": "keeper", "teamId": "be-wed-wol", "stats": { "matches": 10, "runs": 112, "wickets": 0, "average": 14.0, "strikeRate": 95.0, "economy": 0 } }
+    ]
+  },
+
+  {
+    "id": "nw-kol-cru", "name": "Köln Crushers", "shortName": "KOL", "stateId": "nw", "primaryColor": "#D50000",
+    "players": [
+      { "id": "p201", "name": "Yuvraj Chahal", "role": "batsman", "teamId": "nw-kol-cru", "stats": { "matches": 10, "runs": 445, "wickets": 0, "average": 44.5, "strikeRate": 150.0, "economy": 0 } },
+      { "id": "p202", "name": "Christoph Ebert", "role": "bowler", "teamId": "nw-kol-cru", "stats": { "matches": 10, "runs": 30, "wickets": 16, "average": 1.9, "strikeRate": 50.0, "economy": 6.0 } },
+      { "id": "p203", "name": "Danish Ansari", "role": "allrounder", "teamId": "nw-kol-cru", "stats": { "matches": 10, "runs": 289, "wickets": 11, "average": 28.9, "strikeRate": 140.0, "economy": 7.1 } },
+      { "id": "p204", "name": "Hendrik Jansen", "role": "keeper", "teamId": "nw-kol-cru", "stats": { "matches": 10, "runs": 198, "wickets": 0, "average": 24.8, "strikeRate": 126.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "nw-dus-dyn", "name": "Düsseldorf Dynamos", "shortName": "DUS", "stateId": "nw", "primaryColor": "#1565C0",
+    "players": [
+      { "id": "p205", "name": "Akshay Nayar", "role": "batsman", "teamId": "nw-dus-dyn", "stats": { "matches": 10, "runs": 401, "wickets": 0, "average": 40.1, "strikeRate": 147.0, "economy": 0 } },
+      { "id": "p206", "name": "Martin Becker", "role": "bowler", "teamId": "nw-dus-dyn", "stats": { "matches": 10, "runs": 25, "wickets": 14, "average": 1.8, "strikeRate": 54.0, "economy": 6.5 } },
+      { "id": "p207", "name": "Salman Haider", "role": "allrounder", "teamId": "nw-dus-dyn", "stats": { "matches": 10, "runs": 256, "wickets": 9, "average": 28.4, "strikeRate": 134.0, "economy": 7.4 } },
+      { "id": "p208", "name": "Klaus Petersen", "role": "keeper", "teamId": "nw-dus-dyn", "stats": { "matches": 10, "runs": 178, "wickets": 0, "average": 22.2, "strikeRate": 118.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "nw-dor-dev", "name": "Dortmund Devils", "shortName": "DOR", "stateId": "nw", "primaryColor": "#FFD600",
+    "players": [
+      { "id": "p209", "name": "Vivek Malhotra", "role": "batsman", "teamId": "nw-dor-dev", "stats": { "matches": 10, "runs": 378, "wickets": 0, "average": 37.8, "strikeRate": 142.0, "economy": 0 } },
+      { "id": "p210", "name": "Andreas Werner", "role": "bowler", "teamId": "nw-dor-dev", "stats": { "matches": 10, "runs": 33, "wickets": 13, "average": 2.5, "strikeRate": 58.0, "economy": 6.8 } },
+      { "id": "p211", "name": "Irfan Sheikh", "role": "allrounder", "teamId": "nw-dor-dev", "stats": { "matches": 10, "runs": 234, "wickets": 8, "average": 29.2, "strikeRate": 130.0, "economy": 7.7 } },
+      { "id": "p212", "name": "Bernd Hoffmann", "role": "keeper", "teamId": "nw-dor-dev", "stats": { "matches": 10, "runs": 167, "wickets": 0, "average": 20.9, "strikeRate": 113.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "nw-ess-ele", "name": "Essen Elephants", "shortName": "ESS", "stateId": "nw", "primaryColor": "#2E7D32",
+    "players": [
+      { "id": "p213", "name": "Mohan Lal", "role": "batsman", "teamId": "nw-ess-ele", "stats": { "matches": 10, "runs": 312, "wickets": 0, "average": 31.2, "strikeRate": 128.0, "economy": 0 } },
+      { "id": "p214", "name": "Stefan Riedel", "role": "bowler", "teamId": "nw-ess-ele", "stats": { "matches": 10, "runs": 27, "wickets": 12, "average": 2.2, "strikeRate": 62.0, "economy": 7.0 } },
+      { "id": "p215", "name": "Waqar Zaman", "role": "allrounder", "teamId": "nw-ess-ele", "stats": { "matches": 10, "runs": 201, "wickets": 7, "average": 28.7, "strikeRate": 120.0, "economy": 8.0 } },
+      { "id": "p216", "name": "Dirk Schäfer", "role": "keeper", "teamId": "nw-ess-ele", "stats": { "matches": 10, "runs": 145, "wickets": 0, "average": 18.1, "strikeRate": 107.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "nw-bon-bra", "name": "Bonn Braves", "shortName": "BON", "stateId": "nw", "primaryColor": "#6A1B9A",
+    "players": [
+      { "id": "p217", "name": "Rajesh Kapoor", "role": "batsman", "teamId": "nw-bon-bra", "stats": { "matches": 10, "runs": 287, "wickets": 0, "average": 28.7, "strikeRate": 124.0, "economy": 0 } },
+      { "id": "p218", "name": "Thorsten Frey", "role": "bowler", "teamId": "nw-bon-bra", "stats": { "matches": 10, "runs": 19, "wickets": 11, "average": 1.7, "strikeRate": 60.0, "economy": 7.3 } },
+      { "id": "p219", "name": "Naeem Abbas", "role": "allrounder", "teamId": "nw-bon-bra", "stats": { "matches": 10, "runs": 189, "wickets": 6, "average": 31.5, "strikeRate": 116.0, "economy": 8.2 } },
+      { "id": "p220", "name": "Frank Möller", "role": "keeper", "teamId": "nw-bon-bra", "stats": { "matches": 10, "runs": 134, "wickets": 0, "average": 16.8, "strikeRate": 102.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "nw-mun-mar", "name": "Münster Marauders", "shortName": "MNS", "stateId": "nw", "primaryColor": "#E65100",
+    "players": [
+      { "id": "p221", "name": "Tarun Khanna", "role": "batsman", "teamId": "nw-mun-mar", "stats": { "matches": 10, "runs": 334, "wickets": 0, "average": 33.4, "strikeRate": 136.0, "economy": 0 } },
+      { "id": "p222", "name": "Ralf Bergmann", "role": "bowler", "teamId": "nw-mun-mar", "stats": { "matches": 10, "runs": 22, "wickets": 13, "average": 1.7, "strikeRate": 56.0, "economy": 6.7 } },
+      { "id": "p223", "name": "Shahid Afridi", "role": "allrounder", "teamId": "nw-mun-mar", "stats": { "matches": 10, "runs": 267, "wickets": 10, "average": 26.7, "strikeRate": 138.0, "economy": 7.3 } },
+      { "id": "p224", "name": "Uwe Hartwig", "role": "keeper", "teamId": "nw-mun-mar", "stats": { "matches": 10, "runs": 156, "wickets": 0, "average": 19.5, "strikeRate": 111.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "nw-bie-bul", "name": "Bielefeld Bulls", "shortName": "BIE", "stateId": "nw", "primaryColor": "#37474F",
+    "players": [
+      { "id": "p225", "name": "Abhishek Sinha", "role": "batsman", "teamId": "nw-bie-bul", "stats": { "matches": 10, "runs": 256, "wickets": 0, "average": 25.6, "strikeRate": 118.0, "economy": 0 } },
+      { "id": "p226", "name": "Jörg Kessler", "role": "bowler", "teamId": "nw-bie-bul", "stats": { "matches": 10, "runs": 35, "wickets": 10, "average": 3.5, "strikeRate": 68.0, "economy": 7.9 } },
+      { "id": "p227", "name": "Arif Hussain", "role": "allrounder", "teamId": "nw-bie-bul", "stats": { "matches": 10, "runs": 178, "wickets": 6, "average": 29.7, "strikeRate": 112.0, "economy": 8.4 } },
+      { "id": "p228", "name": "Volker Reinhardt", "role": "keeper", "teamId": "nw-bie-bul", "stats": { "matches": 10, "runs": 112, "wickets": 0, "average": 14.0, "strikeRate": 96.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "nw-aac-ace", "name": "Aachen Aces", "shortName": "AAC", "stateId": "nw", "primaryColor": "#0097A7",
+    "players": [
+      { "id": "p229", "name": "Nitin Verma", "role": "batsman", "teamId": "nw-aac-ace", "stats": { "matches": 10, "runs": 298, "wickets": 0, "average": 29.8, "strikeRate": 130.0, "economy": 0 } },
+      { "id": "p230", "name": "Gunnar Wendt", "role": "bowler", "teamId": "nw-aac-ace", "stats": { "matches": 10, "runs": 18, "wickets": 14, "average": 1.3, "strikeRate": 52.0, "economy": 6.3 } },
+      { "id": "p231", "name": "Aamir Raza", "role": "allrounder", "teamId": "nw-aac-ace", "stats": { "matches": 10, "runs": 223, "wickets": 9, "average": 24.8, "strikeRate": 126.0, "economy": 7.5 } },
+      { "id": "p232", "name": "Claus Stein", "role": "keeper", "teamId": "nw-aac-ace", "stats": { "matches": 10, "runs": 167, "wickets": 0, "average": 20.9, "strikeRate": 114.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "nw-wup-wiz", "name": "Wuppertal Wizards", "shortName": "WUP", "stateId": "nw", "primaryColor": "#AD1457",
+    "players": [
+      { "id": "p233", "name": "Karthik Venkat", "role": "batsman", "teamId": "nw-wup-wiz", "stats": { "matches": 10, "runs": 345, "wickets": 0, "average": 34.5, "strikeRate": 140.0, "economy": 0 } },
+      { "id": "p234", "name": "Axel Hermann", "role": "bowler", "teamId": "nw-wup-wiz", "stats": { "matches": 10, "runs": 14, "wickets": 15, "average": 0.9, "strikeRate": 48.0, "economy": 5.9 } },
+      { "id": "p235", "name": "Hamza Qazi", "role": "allrounder", "teamId": "nw-wup-wiz", "stats": { "matches": 10, "runs": 245, "wickets": 11, "average": 22.3, "strikeRate": 134.0, "economy": 7.2 } },
+      { "id": "p236", "name": "Bruno Fuchs", "role": "keeper", "teamId": "nw-wup-wiz", "stats": { "matches": 10, "runs": 189, "wickets": 0, "average": 23.6, "strikeRate": 120.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "nw-gel-gla", "name": "Gelsenkirchen Gladiators", "shortName": "GEL", "stateId": "nw", "primaryColor": "#004D40",
+    "players": [
+      { "id": "p237", "name": "Suresh Menon", "role": "batsman", "teamId": "nw-gel-gla", "stats": { "matches": 10, "runs": 267, "wickets": 0, "average": 26.7, "strikeRate": 119.0, "economy": 0 } },
+      { "id": "p238", "name": "Heiko Bauer", "role": "bowler", "teamId": "nw-gel-gla", "stats": { "matches": 10, "runs": 31, "wickets": 10, "average": 3.1, "strikeRate": 66.0, "economy": 7.7 } },
+      { "id": "p239", "name": "Asad Mahmood", "role": "allrounder", "teamId": "nw-gel-gla", "stats": { "matches": 10, "runs": 198, "wickets": 7, "average": 28.3, "strikeRate": 116.0, "economy": 8.1 } },
+      { "id": "p240", "name": "Werner Koch", "role": "keeper", "teamId": "nw-gel-gla", "stats": { "matches": 10, "runs": 145, "wickets": 0, "average": 18.1, "strikeRate": 105.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "nw-lev-leo", "name": "Leverkusen Leopards", "shortName": "LEV", "stateId": "nw", "primaryColor": "#BF360C",
+    "players": [
+      { "id": "p241", "name": "Govind Pillai", "role": "batsman", "teamId": "nw-lev-leo", "stats": { "matches": 10, "runs": 223, "wickets": 0, "average": 22.3, "strikeRate": 112.0, "economy": 0 } },
+      { "id": "p242", "name": "Boris Naumann", "role": "bowler", "teamId": "nw-lev-leo", "stats": { "matches": 10, "runs": 38, "wickets": 9, "average": 4.2, "strikeRate": 72.0, "economy": 8.3 } },
+      { "id": "p243", "name": "Jawad Karim", "role": "allrounder", "teamId": "nw-lev-leo", "stats": { "matches": 10, "runs": 167, "wickets": 5, "average": 33.4, "strikeRate": 108.0, "economy": 8.7 } },
+      { "id": "p244", "name": "Erich Sommer", "role": "keeper", "teamId": "nw-lev-leo", "stats": { "matches": 10, "runs": 98, "wickets": 0, "average": 12.2, "strikeRate": 92.0, "economy": 0 } }
+    ]
+  },
+  {
+    "id": "nw-pad-pir", "name": "Paderborn Pirates", "shortName": "PAD", "stateId": "nw", "primaryColor": "#1A237E",
+    "players": [
+      { "id": "p245", "name": "Dinesh Karthik", "role": "batsman", "teamId": "nw-pad-pir", "stats": { "matches": 10, "runs": 289, "wickets": 0, "average": 28.9, "strikeRate": 125.0, "economy": 0 } },
+      { "id": "p246", "name": "Till Bruckner", "role": "bowler", "teamId": "nw-pad-pir", "stats": { "matches": 10, "runs": 24, "wickets": 11, "average": 2.2, "strikeRate": 60.0, "economy": 7.1 } },
+      { "id": "p247", "name": "Shahbaz Nawaz", "role": "allrounder", "teamId": "nw-pad-pir", "stats": { "matches": 10, "runs": 212, "wickets": 8, "average": 26.5, "strikeRate": 122.0, "economy": 7.6 } },
+      { "id": "p248", "name": "Anton Pfaff", "role": "keeper", "teamId": "nw-pad-pir", "stats": { "matches": 10, "runs": 134, "wickets": 0, "average": 16.8, "strikeRate": 100.0, "economy": 0 } }
+    ]
+  }
+]

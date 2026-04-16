@@ -1,0 +1,18 @@
+[
+  { "id": "bw", "name": "Baden-Württemberg", "code": "BW" },
+  { "id": "by", "name": "Bayern", "code": "BY" },
+  { "id": "be", "name": "Berlin", "code": "BE" },
+  { "id": "bb", "name": "Brandenburg", "code": "BB" },
+  { "id": "hb", "name": "Bremen", "code": "HB" },
+  { "id": "hh", "name": "Hamburg", "code": "HH" },
+  { "id": "he", "name": "Hessen", "code": "HE" },
+  { "id": "mv", "name": "Mecklenburg-Vorpommern", "code": "MV" },
+  { "id": "ni", "name": "Niedersachsen", "code": "NI" },
+  { "id": "nw", "name": "Nordrhein-Westfalen", "code": "NW" },
+  { "id": "rp", "name": "Rheinland-Pfalz", "code": "RP" },
+  { "id": "sl", "name": "Saarland", "code": "SL" },
+  { "id": "sn", "name": "Sachsen", "code": "SN" },
+  { "id": "st", "name": "Sachsen-Anhalt", "code": "ST" },
+  { "id": "sh", "name": "Schleswig-Holstein", "code": "SH" },
+  { "id": "th", "name": "Thüringen", "code": "TH" }
+]

@@ -31,15 +31,8 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     }
   }, [theme])
 
-  // Apply default theme on mount before any render
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme)
-  }, [])
-
-  const setTheme = (next: Theme) => setThemeState(next)
-
   return (
-    <ThemeContext.Provider value={{ theme, setTheme }}>
+    <ThemeContext.Provider value={{ theme, setTheme: setThemeState }}>
       {children}
     </ThemeContext.Provider>
   )

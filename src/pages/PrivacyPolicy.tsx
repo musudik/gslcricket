@@ -8,11 +8,11 @@ export default function PrivacyPolicy() {
       </Helmet>
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="font-display text-4xl sm:text-5xl tracking-wider text-white mb-10">Privacy Policy</h1>
+        <h1 className="font-display text-4xl sm:text-5xl tracking-wider text-gslc-gold mb-10">Privacy Policy</h1>
 
         <div className="space-y-8 text-gslc-text text-sm leading-relaxed">
           <section>
-            <h2 className="font-display text-xl tracking-wider text-white mb-3">1. Overview</h2>
+            <h2 className="font-display text-xl tracking-wider text-gslc-red mb-3">1. Overview</h2>
             <p>
               The following gives a simple overview of what happens to your personal information when you visit our website.
               Personal information is any data with which you could be personally identified. Detailed information can be
@@ -21,8 +21,8 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="font-display text-xl tracking-wider text-white mb-3">2. Data Collection on Our Website</h2>
-            <h3 className="text-white font-medium mt-4 mb-2">Who is responsible for data collection?</h3>
+            <h2 className="font-display text-xl tracking-wider text-gslc-red mb-3">2. Data Collection on Our Website</h2>
+            <h3 className="text-gslc-gold font-medium mt-4 mb-2">Who is responsible for data collection?</h3>
             <p>
               Data processing on this website is carried out by the website operator:<br />
               German Super League Cricket (GSLC)<br />
@@ -30,7 +30,7 @@ export default function PrivacyPolicy() {
               Email: info@gslcricket.de
             </p>
 
-            <h3 className="text-white font-medium mt-4 mb-2">How do we collect your data?</h3>
+            <h3 className="text-gslc-gold font-medium mt-4 mb-2">How do we collect your data?</h3>
             <p>
               Some data is collected when you provide it to us (e.g., contact form data). Other data is collected
               automatically by our IT systems when you visit the website. This is mainly technical data such as the
@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
               automatically as soon as you enter our website.
             </p>
 
-            <h3 className="text-white font-medium mt-4 mb-2">What do we use your data for?</h3>
+            <h3 className="text-gslc-gold font-medium mt-4 mb-2">What do we use your data for?</h3>
             <p>
               Part of the data is collected to ensure the proper functioning of the website. Other data can be used to
               analyze how visitors use the site.
@@ -46,7 +46,7 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="font-display text-xl tracking-wider text-white mb-3">3. Your Rights</h2>
+            <h2 className="font-display text-xl tracking-wider text-gslc-red mb-3">3. Your Rights</h2>
             <p>Under GDPR, you have the following rights regarding your personal data:</p>
             <ul className="list-disc pl-5 mt-2 space-y-1 text-gslc-muted">
               <li>Right of access (Art. 15 GDPR)</li>
@@ -62,7 +62,7 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="font-display text-xl tracking-wider text-white mb-3">4. Hosting</h2>
+            <h2 className="font-display text-xl tracking-wider text-gslc-red mb-3">4. Hosting</h2>
             <p>
               This website is hosted by Vercel Inc. When you visit our website, your IP address and other data are
               transmitted to Vercel's servers. This is necessary for delivering the website to your browser. Vercel
@@ -71,7 +71,7 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="font-display text-xl tracking-wider text-white mb-3">5. Cookies</h2>
+            <h2 className="font-display text-xl tracking-wider text-gslc-red mb-3">5. Cookies</h2>
             <p>
               Our website uses only essential cookies required for proper operation. We do not use tracking or
               advertising cookies. For more details, see our{' '}
@@ -80,7 +80,7 @@ export default function PrivacyPolicy() {
           </section>
 
           <section>
-            <h2 className="font-display text-xl tracking-wider text-white mb-3">6. Contact</h2>
+            <h2 className="font-display text-xl tracking-wider text-gslc-red mb-3">6. Contact</h2>
             <p>
               If you have questions about data protection, please contact us at:<br />
               Email: info@gslcricket.de<br />

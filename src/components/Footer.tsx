@@ -11,7 +11,7 @@ export default function Footer() {
               <div className="w-8 h-8 rounded-md bg-gslc-gold flex items-center justify-center">
                 <span className="font-display text-gslc-black text-lg leading-none">G</span>
               </div>
-              <span className="font-display text-xl tracking-wider text-white">GSLC</span>
+              <span className="font-display text-xl tracking-wider text-gslc-gold">GSLC</span>
             </div>
             <p className="text-sm text-gslc-muted leading-relaxed">
               German Super League Cricket — showcasing state-wise leagues across Germany.

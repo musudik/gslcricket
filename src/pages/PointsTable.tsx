@@ -65,7 +65,7 @@ export default function PointsTable() {
                   return (
                     <tr
                       key={entry.teamId}
-                      className={`border-t border-gslc-border/50 hover:bg-white/[0.02] ${
+                      className={`border-t border-gslc-border/50 hover:bg-gslc-gold/[0.03] ${
                         isPlayoff ? 'bg-gslc-gold/[0.03]' : ''
                       }`}
                     >
@@ -77,16 +77,16 @@ export default function PointsTable() {
                       <td className="py-3 px-4">
                         <div className="flex items-center gap-3">
                           <div
-                            className="w-8 h-8 rounded flex items-center justify-center font-display text-sm text-white shrink-0"
+                            className="w-8 h-8 rounded flex items-center justify-center font-display text-sm text-gslc-black shrink-0"
                             style={{ background: team?.primaryColor || '#FFCC00' }}
                           >
                             {team?.shortName.slice(0, 2) || '??'}
                           </div>
-                          <span className="text-white font-medium">{team?.name || entry.teamId}</span>
+                          <span className="text-gslc-gold font-medium">{team?.name || entry.teamId}</span>
                         </div>
                       </td>
                       <td className="py-3 px-4 text-center text-gslc-muted">{entry.played}</td>
-                      <td className="py-3 px-4 text-center text-white">{entry.won}</td>
+                      <td className="py-3 px-4 text-center text-gslc-gold">{entry.won}</td>
                       <td className="py-3 px-4 text-center text-gslc-muted">{entry.lost}</td>
                       <td className="py-3 px-4 text-center text-gslc-muted">{entry.tied}</td>
                       <td className="py-3 px-4 text-right">

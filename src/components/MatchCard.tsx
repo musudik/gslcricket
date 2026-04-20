@@ -11,7 +11,7 @@ export default function MatchCard({ match, teams }: Props) {
 
   const statusColor =
     match.status === 'live'
-      ? 'bg-gslc-red text-white'
+      ? 'bg-gslc-red text-gslc-gold'
       : match.status === 'completed'
         ? 'bg-gslc-muted/20 text-gslc-muted'
         : 'bg-gslc-gold/15 text-gslc-gold'
@@ -36,12 +36,12 @@ export default function MatchCard({ match, teams }: Props) {
       <div className="flex items-center justify-between gap-4">
         <div className="text-center flex-1">
           <div
-            className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-white mb-1"
+            className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-gslc-black mb-1"
             style={{ background: home?.primaryColor || '#FFCC00' }}
           >
             {home?.shortName.slice(0, 2) || '??'}
           </div>
-          <p className="text-sm font-medium text-white truncate">{home?.shortName || 'TBD'}</p>
+          <p className="text-sm font-medium text-gslc-gold truncate">{home?.shortName || 'TBD'}</p>
           {match.homeScore && <p className="text-lg font-display text-gslc-gold">{match.homeScore}</p>}
         </div>
 
@@ -49,12 +49,12 @@ export default function MatchCard({ match, teams }: Props) {
 
         <div className="text-center flex-1">
           <div
-            className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-white mb-1"
+            className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-gslc-black mb-1"
             style={{ background: away?.primaryColor || '#FFCC00' }}
           >
             {away?.shortName.slice(0, 2) || '??'}
           </div>
-          <p className="text-sm font-medium text-white truncate">{away?.shortName || 'TBD'}</p>
+          <p className="text-sm font-medium text-gslc-gold truncate">{away?.shortName || 'TBD'}</p>
           {match.awayScore && <p className="text-lg font-display text-gslc-gold">{match.awayScore}</p>}
         </div>
       </div>

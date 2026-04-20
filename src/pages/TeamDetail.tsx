@@ -44,25 +44,25 @@ export default function TeamDetail() {
             {state?.name}
           </Link>
           <span>/</span>
-          <span className="text-white">{team.shortName}</span>
+          <span className="text-gslc-gold">{team.shortName}</span>
         </div>
 
         {/* Team header */}
         <div className="flex items-center gap-5 mb-10">
           <div
-            className="w-16 h-16 rounded-xl flex items-center justify-center font-display text-3xl text-white shrink-0"
+            className="w-16 h-16 rounded-xl flex items-center justify-center font-display text-3xl text-gslc-black shrink-0"
             style={{ background: team.primaryColor }}
           >
             {team.shortName.slice(0, 2)}
           </div>
           <div>
-            <h1 className="font-display text-4xl sm:text-5xl tracking-wide text-white m-0">{team.name}</h1>
+            <h1 className="font-display text-4xl sm:text-5xl tracking-wide text-gslc-gold m-0">{team.name}</h1>
             <p className="text-gslc-muted mt-1">{team.shortName} · {state?.name}</p>
           </div>
         </div>
 
         {/* Roster */}
-        <h2 className="font-display text-2xl tracking-wide text-white mb-4">Squad</h2>
+        <h2 className="font-display text-2xl tracking-wide text-gslc-red mb-4">Squad</h2>
 
         {team.players.length > 0 ? (
           <div className="overflow-x-auto">
@@ -79,14 +79,14 @@ export default function TeamDetail() {
               </thead>
               <tbody>
                 {team.players.map((p) => (
-                  <tr key={p.id} className="border-b border-gslc-border/50 hover:bg-white/[0.02]">
-                    <td className="py-3 pr-4 text-white font-medium">{p.name}</td>
+                  <tr key={p.id} className="border-b border-gslc-border/50 hover:bg-gslc-gold/[0.03]">
+                    <td className="py-3 pr-4 text-gslc-gold font-medium">{p.name}</td>
                     <td className="py-3 pr-4">
                       <span className="capitalize text-gslc-muted">{p.role}</span>
                     </td>
                     <td className="py-3 pr-4 text-right text-gslc-muted">{p.stats.matches}</td>
-                    <td className="py-3 pr-4 text-right text-white">{p.stats.runs}</td>
-                    <td className="py-3 pr-4 text-right text-white">{p.stats.wickets}</td>
+                    <td className="py-3 pr-4 text-right text-gslc-gold">{p.stats.runs}</td>
+                    <td className="py-3 pr-4 text-right text-gslc-gold">{p.stats.wickets}</td>
                     <td className="py-3 text-right text-gslc-muted">{p.stats.strikeRate.toFixed(1)}</td>
                   </tr>
                 ))}

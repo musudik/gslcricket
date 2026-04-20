@@ -85,7 +85,7 @@ export default function Navbar() {
                   {link.label}
                 </NavLink>
               ))}
-              <div className="ml-3 border-l border-white/10 pl-3">
+              <div className="ml-3 border-l border-gslc-border pl-3">
                 <ThemeToggle />
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function Navbar() {
             {/* Mobile hamburger */}
             <button
               onClick={() => setOpen(!open)}
-              className="md:hidden p-2 text-gslc-muted hover:text-white"
+              className="md:hidden p-2 text-gslc-muted hover:text-gslc-gold"
               aria-label="Toggle navigation"
             >
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

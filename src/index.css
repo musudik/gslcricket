@@ -22,7 +22,7 @@
   --color-gslc-gold-glow:  #FFCC00;
   --color-gslc-electric:   #FFCC00;
   --color-gslc-lime:       #FFCC00;
-  --color-gslc-text:       #FFFFFF;
+  --color-gslc-text:       #FFCC00;
   --color-gslc-muted:      #888888;
   --font-gslc-display:     "Oswald", sans-serif;
   --font-gslc-body:        "IBM Plex Sans", system-ui, sans-serif;
@@ -47,7 +47,7 @@
   --color-gslc-gold-glow:  #FFCC00;
   --color-gslc-electric:   #FFCC00;
   --color-gslc-lime:       #FFCC00;
-  --color-gslc-text:       #FFFFFF;
+  --color-gslc-text:       #FFCC00;
   --color-gslc-muted:      #888888;
   --font-gslc-display:     "Oswald", sans-serif;
   --font-gslc-body:        "IBM Plex Sans", system-ui, sans-serif;
@@ -68,7 +68,7 @@
   --color-gslc-gold-glow: #FFCC00;
   --color-gslc-electric: #FFCC00;
   --color-gslc-lime: #FFCC00;
-  --color-gslc-text: #FFFFFF;
+  --color-gslc-text: #FFCC00;
   --color-gslc-muted: #888888;
 
   --font-display: "Oswald", sans-serif;
@@ -157,8 +157,8 @@ body {
 }
 
 ::selection {
-  background: #FFCC00;
-  color: #000000;
+  background: #DD0000;
+  color: #FFCC00;
 }
 
 .scrollbar-none::-webkit-scrollbar {

@@ -61,7 +61,7 @@ export default function Home() {
             {/* Season badge */}
             <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-gslc-gold bg-gslc-black backdrop-blur-sm mb-8 animate-fade-in" style={{ animationDelay: '200ms' }}>
               <div className="flex gap-1">
-                <div className="w-4 h-2.5 bg-black rounded-sm border border-white/10" />
+                <div className="w-4 h-2.5 bg-black rounded-sm border border-gslc-border" />
                 <div className="w-4 h-2.5 bg-gslc-red rounded-sm" />
                 <div className="w-4 h-2.5 bg-gslc-gold rounded-sm" />
               </div>
@@ -69,8 +69,8 @@ export default function Home() {
               <div className="w-1.5 h-1.5 rounded-full bg-gslc-lime animate-pulse" />
             </div>
 
-            <h1 className="font-display text-6xl sm:text-8xl lg:text-9xl tracking-wider text-white leading-[0.9] mb-6 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-              <span className="text-white">GERMAN</span>
+            <h1 className="font-display text-6xl sm:text-8xl lg:text-9xl tracking-wider leading-[0.9] mb-6 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
+              <span className="text-gslc-gold">GERMAN</span>
               <br />
               <span className="text-gslc-red font-display">
                 SUPER LEAGUE
@@ -79,7 +79,7 @@ export default function Home() {
               <span className="text-gslc-gold">CRICKET</span>
             </h1>
 
-            <p className="text-lg sm:text-2xl text-white/70 max-w-xl mb-10 leading-relaxed font-light animate-fade-in-up" style={{ animationDelay: '600ms' }}>
+            <p className="text-lg sm:text-2xl text-gslc-muted max-w-xl mb-10 leading-relaxed font-light animate-fade-in-up" style={{ animationDelay: '600ms' }}>
               16 states. 250+ teams, 14K players. One champion.
               <br />
               <span className="text-gslc-red font-medium">The biggest cricket league in Germany.</span>
@@ -88,14 +88,14 @@ export default function Home() {
             <div className="flex flex-wrap gap-4 animate-fade-in-up" style={{ animationDelay: '800ms' }}>
               <Link
                 to="/teams"
-                className="group px-8 py-4 bg-gslc-gold text-gslc-black font-bold rounded-lg transition-all no-underline text-sm uppercase tracking-wider hover:bg-gslc-red hover:text-white hover:scale-105"
+                className="group px-8 py-4 bg-gslc-gold text-gslc-black font-bold rounded-lg transition-all no-underline text-sm uppercase tracking-wider hover:bg-gslc-red hover:text-gslc-gold hover:scale-105"
               >
                 Explore Teams
                 <span className="inline-block ml-2 transition-transform group-hover:translate-x-1">→</span>
               </Link>
               <Link
                 to="/matches"
-                className="px-8 py-4 border-2 border-gslc-red text-white rounded-lg hover:bg-gslc-red hover:border-gslc-red transition-all no-underline text-sm uppercase tracking-wider"
+                className="px-8 py-4 border-2 border-gslc-red text-gslc-gold rounded-lg hover:bg-gslc-red hover:border-gslc-red hover:text-gslc-black transition-all no-underline text-sm uppercase tracking-wider"
               >
                 View Fixtures
               </Link>
@@ -120,7 +120,7 @@ export default function Home() {
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <span className="text-xs font-bold tracking-[0.3em] uppercase text-gslc-red border border-gslc-red px-3 py-1 rounded-full">Featured</span>
-            <h2 className="font-display text-4xl sm:text-5xl tracking-wider text-white mt-2 mb-0">
+            <h2 className="font-display text-4xl sm:text-5xl tracking-wider text-gslc-gold mt-2 mb-0">
               MUNICH <span className="text-gslc-gold">SIXERS</span>
             </h2>
           </div>

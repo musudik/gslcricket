@@ -10,11 +10,11 @@ export default function StateCard({ state, index }: Props) {
   return (
     <Link
       to={`/teams/${state.id}`}
-      className="group relative overflow-hidden rounded-xl border border-gslc-border bg-gslc-card p-5 no-underline transition-all duration-300 hover:border-gslc-gold/60 hover:shadow-[0_0_40px_rgba(255,215,0,0.15)] hover:-translate-y-1"
+      className="group relative overflow-hidden rounded-xl border border-gslc-border bg-gslc-card p-5 no-underline transition-all duration-300 hover:border-gslc-gold hover:-translate-y-1"
       style={{ animationDelay: `${index * 40}ms` }}
     >
       {/* Diagonal accent */}
-      <div className="absolute -top-8 -right-8 w-24 h-24 bg-gradient-to-br from-gslc-gold/5 to-gslc-red/5 rotate-45 group-hover:from-gslc-gold/20 group-hover:to-gslc-red/10 transition-all duration-300" />
+      <div className="absolute -top-8 -right-8 w-24 h-24 bg-gslc-gold/5 rotate-45 group-hover:bg-gslc-gold/20 transition-all duration-300" />
 
       <div className="relative">
         <span className="inline-block px-2.5 py-0.5 rounded bg-gslc-gold/10 text-gslc-gold font-display text-sm tracking-wider mb-3">

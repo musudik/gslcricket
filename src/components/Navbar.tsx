@@ -19,38 +19,29 @@ function ThemeToggle() {
       title={isGerman ? 'Switch to Classic theme' : 'Switch to German Metallic theme'}
       aria-label="Toggle color theme"
       className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border transition-all duration-300 text-xs font-display tracking-wider select-none cursor-pointer"
-      style={
-        isGerman
-          ? {
-              borderColor: 'rgba(255,206,0,0.4)',
-              background: 'rgba(255,206,0,0.06)',
-              color: '#FFCE00',
-            }
-          : {
-              borderColor: 'rgba(255,215,0,0.3)',
-              background: 'rgba(255,215,0,0.05)',
-              color: '#FFD700',
-            }
-      }
+      style={{
+        borderColor: '#FFCC00',
+        background: '#000000',
+        color: '#FFCC00',
+      }}
     >
       {/* German flag stripes icon */}
       {isGerman ? (
         <>
           <span className="flex flex-col gap-px w-4 h-3.5 rounded-sm overflow-hidden shrink-0">
-            <span className="flex-1 block" style={{ background: '#000' }} />
-            <span className="flex-1 block" style={{ background: '#CC0000' }} />
-            <span className="flex-1 block" style={{ background: '#FFCE00' }} />
+            <span className="flex-1 block" style={{ background: '#000000' }} />
+            <span className="flex-1 block" style={{ background: '#DD0000' }} />
+            <span className="flex-1 block" style={{ background: '#FFCC00' }} />
           </span>
           <span>Metallic</span>
         </>
       ) : (
         <>
-          <span
-            className="w-4 h-3.5 rounded-sm shrink-0"
-            style={{
-              background: 'conic-gradient(#0a0b14 0 25%, #FF003C 25% 75%, #FFD700 75%)',
-            }}
-          />
+          <span className="flex flex-col gap-px w-4 h-3.5 rounded-sm overflow-hidden shrink-0">
+            <span className="flex-1 block" style={{ background: '#000000' }} />
+            <span className="flex-1 block" style={{ background: '#DD0000' }} />
+            <span className="flex-1 block" style={{ background: '#FFCC00' }} />
+          </span>
           <span>Classic</span>
         </>
       )}
@@ -72,7 +63,7 @@ export default function Navbar() {
               <img
                 src="/logo.png"
                 alt="GSLC"
-                className="h-20 w-auto object-contain drop-shadow-[0_0_16px_rgba(255,215,0,0.35)]"
+                className="h-20 w-auto object-contain"
               />
             </Link>
 

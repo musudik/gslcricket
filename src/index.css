@@ -6,48 +6,48 @@
    • data-theme="classic" → Dark Navy / Neon (original)
    ════════════════════════════════════════════════════════════════════════════ */
 
-/* ── Classic theme values (the original neon-navy look) ─────────────────── */
+/* ── Classic theme values (strict German flag colors) ───────────────────── */
 :root[data-theme="classic"],
 [data-theme="classic"] {
-  --color-gslc-black:      #05050a;
-  --color-gslc-dark:       #0a0b14;
-  --color-gslc-card:       #111220;
-  --color-gslc-border:     #1e2038;
-  --color-gslc-red:        #FF003C;
-  --color-gslc-red-light:  #FF3366;
-  --color-gslc-red-glow:   #ff003c66;
-  --color-gslc-gold:       #FFD700;
-  --color-gslc-gold-hot:   #FFEA00;
-  --color-gslc-gold-dim:   #c9a800;
-  --color-gslc-gold-glow:  #ffd70055;
-  --color-gslc-electric:   #00E5FF;
-  --color-gslc-lime:       #AAFF00;
-  --color-gslc-text:       #eeeef6;
-  --color-gslc-muted:      #7b7d9e;
-  --font-gslc-display:     "Barlow Condensed", sans-serif;
-  --font-gslc-body:        "DM Sans", system-ui, sans-serif;
-  --font-gslc-display-weight: 900;
+  --color-gslc-black:      #000000;
+  --color-gslc-dark:       #0a0a0a;
+  --color-gslc-card:       #111111;
+  --color-gslc-border:     #222222;
+  --color-gslc-red:        #DD0000;
+  --color-gslc-red-light:  #DD0000;
+  --color-gslc-red-glow:   #DD0000;
+  --color-gslc-gold:       #FFCC00;
+  --color-gslc-gold-hot:   #FFCC00;
+  --color-gslc-gold-dim:   #FFCC00;
+  --color-gslc-gold-glow:  #FFCC00;
+  --color-gslc-electric:   #FFCC00;
+  --color-gslc-lime:       #FFCC00;
+  --color-gslc-text:       #FFFFFF;
+  --color-gslc-muted:      #888888;
+  --font-gslc-display:     "Oswald", sans-serif;
+  --font-gslc-body:        "IBM Plex Sans", system-ui, sans-serif;
+  --font-gslc-display-weight: 700;
 }
 
-/* ── German Metallic theme (DEFAULT) ─────────────────────────────────────── */
+/* ── German flag theme (DEFAULT) — strict Black / Red / Gold ─────────────── */
 :root[data-theme="german"],
 [data-theme="german"],
 :root:not([data-theme]),
 :not([data-theme]) {
   --color-gslc-black:      #000000;
-  --color-gslc-dark:       #0d0d0d;
-  --color-gslc-card:       #141414;
-  --color-gslc-border:     #2a2a2a;
-  --color-gslc-red:        #CC0000;
-  --color-gslc-red-light:  #E60000;
-  --color-gslc-red-glow:   #cc000060;
-  --color-gslc-gold:       #FFCE00;
-  --color-gslc-gold-hot:   #FFE033;
-  --color-gslc-gold-dim:   #A88B00;
-  --color-gslc-gold-glow:  #ffce0055;
-  --color-gslc-electric:   #B0B0B0;
-  --color-gslc-lime:       #FFCE00;
-  --color-gslc-text:       #F0F0F0;
+  --color-gslc-dark:       #0a0a0a;
+  --color-gslc-card:       #111111;
+  --color-gslc-border:     #222222;
+  --color-gslc-red:        #DD0000;
+  --color-gslc-red-light:  #DD0000;
+  --color-gslc-red-glow:   #DD0000;
+  --color-gslc-gold:       #FFCC00;
+  --color-gslc-gold-hot:   #FFCC00;
+  --color-gslc-gold-dim:   #FFCC00;
+  --color-gslc-gold-glow:  #FFCC00;
+  --color-gslc-electric:   #FFCC00;
+  --color-gslc-lime:       #FFCC00;
+  --color-gslc-text:       #FFFFFF;
   --color-gslc-muted:      #888888;
   --font-gslc-display:     "Oswald", sans-serif;
   --font-gslc-body:        "IBM Plex Sans", system-ui, sans-serif;
@@ -56,19 +56,19 @@
 
 @theme {
   --color-gslc-black: #000000;
-  --color-gslc-dark: #0d0d0d;
-  --color-gslc-card: #141414;
-  --color-gslc-border: #2a2a2a;
-  --color-gslc-red: #CC0000;
-  --color-gslc-red-light: #E60000;
-  --color-gslc-red-glow: #cc000060;
-  --color-gslc-gold: #FFCE00;
-  --color-gslc-gold-hot: #FFE033;
-  --color-gslc-gold-dim: #A88B00;
-  --color-gslc-gold-glow: #ffce0055;
-  --color-gslc-electric: #B0B0B0;
-  --color-gslc-lime: #FFCE00;
-  --color-gslc-text: #F0F0F0;
+  --color-gslc-dark: #0a0a0a;
+  --color-gslc-card: #111111;
+  --color-gslc-border: #222222;
+  --color-gslc-red: #DD0000;
+  --color-gslc-red-light: #DD0000;
+  --color-gslc-red-glow: #DD0000;
+  --color-gslc-gold: #FFCC00;
+  --color-gslc-gold-hot: #FFCC00;
+  --color-gslc-gold-dim: #FFCC00;
+  --color-gslc-gold-glow: #FFCC00;
+  --color-gslc-electric: #FFCC00;
+  --color-gslc-lime: #FFCC00;
+  --color-gslc-text: #FFFFFF;
   --color-gslc-muted: #888888;
 
   --font-display: "Oswald", sans-serif;
@@ -92,33 +92,25 @@ body {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* ── German theme: metallic body texture ─────────────────────────────────── */
+/* ── Plain black background for both themes (no gradients) ──────────────── */
 [data-theme="german"] body,
-:root:not([data-theme]) body {
-  background-image:
-    radial-gradient(ellipse 70% 35% at 50% -5%, rgba(204,0,0,0.07) 0%, transparent 65%),
-    radial-gradient(ellipse 50% 25% at 90% 105%, rgba(255,206,0,0.05) 0%, transparent 55%);
-}
-
-/* ── Classic theme: neon-navy body texture ───────────────────────────────── */
+:root:not([data-theme]) body,
 [data-theme="classic"] body {
-  background-image:
-    radial-gradient(ellipse 70% 35% at 50% -5%, rgba(0,229,255,0.04) 0%, transparent 65%),
-    radial-gradient(ellipse 50% 25% at 90% 105%, rgba(255,0,60,0.04) 0%, transparent 55%);
+  background-image: none;
 }
 
-/* ── Glow utilities ──────────────────────────────────────────────────────── */
+/* ── Glow utilities (disabled — plain colors only) ──────────────────────── */
 .glow-gold {
-  box-shadow: 0 0 20px var(--color-gslc-gold-glow), 0 0 60px var(--color-gslc-gold-glow);
+  box-shadow: none;
 }
 .glow-red {
-  box-shadow: 0 0 20px var(--color-gslc-red-glow), 0 0 60px var(--color-gslc-red-glow);
+  box-shadow: none;
 }
 .text-glow-gold {
-  text-shadow: 0 0 30px var(--color-gslc-gold-glow), 0 0 80px var(--color-gslc-gold-glow);
+  text-shadow: none;
 }
 .text-glow-red {
-  text-shadow: 0 0 30px var(--color-gslc-red-glow);
+  text-shadow: none;
 }
 
 /* ── Animations ──────────────────────────────────────────────────────────── */
@@ -165,8 +157,8 @@ body {
 }
 
 ::selection {
-  background: rgba(255, 215, 0, 0.4);
-  color: #fff;
+  background: #FFCC00;
+  color: #000000;
 }
 
 .scrollbar-none::-webkit-scrollbar {

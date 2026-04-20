@@ -78,7 +78,7 @@ export default function PointsTable() {
                         <div className="flex items-center gap-3">
                           <div
                             className="w-8 h-8 rounded flex items-center justify-center font-display text-sm text-white shrink-0"
-                            style={{ background: team?.primaryColor || '#444' }}
+                            style={{ background: team?.primaryColor || '#FFCC00' }}
                           >
                             {team?.shortName.slice(0, 2) || '??'}
                           </div>
@@ -90,7 +90,7 @@ export default function PointsTable() {
                       <td className="py-3 px-4 text-center text-gslc-muted">{entry.lost}</td>
                       <td className="py-3 px-4 text-center text-gslc-muted">{entry.tied}</td>
                       <td className="py-3 px-4 text-right">
-                        <span className={entry.nrr >= 0 ? 'text-green-400' : 'text-gslc-red-light'}>
+                        <span className={entry.nrr >= 0 ? 'text-gslc-gold' : 'text-gslc-red'}>
                           {entry.nrr >= 0 ? '+' : ''}{entry.nrr.toFixed(3)}
                         </span>
                       </td>

@@ -17,7 +17,7 @@ export default function MatchCard({ match, teams }: Props) {
         : 'bg-gslc-gold/15 text-gslc-gold'
 
   return (
-    <div className="rounded-xl border border-gslc-border bg-gslc-card p-5 transition-all duration-300 hover:border-gslc-gold/30 hover:shadow-[0_0_30px_rgba(255,215,0,0.08)]">
+    <div className="rounded-xl border border-gslc-border bg-gslc-card p-5 transition-all duration-300 hover:border-gslc-gold">
       {/* Status + Date */}
       <div className="flex items-center justify-between mb-4">
         <span className={`text-[11px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full ${statusColor}`}>
@@ -37,7 +37,7 @@ export default function MatchCard({ match, teams }: Props) {
         <div className="text-center flex-1">
           <div
             className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-white mb-1"
-            style={{ background: home?.primaryColor || '#444' }}
+            style={{ background: home?.primaryColor || '#FFCC00' }}
           >
             {home?.shortName.slice(0, 2) || '??'}
           </div>
@@ -50,7 +50,7 @@ export default function MatchCard({ match, teams }: Props) {
         <div className="text-center flex-1">
           <div
             className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-white mb-1"
-            style={{ background: away?.primaryColor || '#444' }}
+            style={{ background: away?.primaryColor || '#FFCC00' }}
           >
             {away?.shortName.slice(0, 2) || '??'}
           </div>

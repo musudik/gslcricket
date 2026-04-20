@@ -55,7 +55,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50">
       {/* Main bar: Logo + Navigation */}
-      <div className="bg-gslc-black/95 backdrop-blur-xl border-b border-gslc-gold/10">
+      <div className="bg-gslc-black/95 backdrop-blur-xl border-b-2 border-gslc-red">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Site Logo — 3x bigger */}
@@ -78,7 +78,7 @@ export default function Navbar() {
                     `px-5 py-1.5 font-display text-base tracking-widest transition-colors no-underline border-b-2 ${
                       isActive
                         ? 'border-gslc-gold text-gslc-gold'
-                        : 'border-transparent text-gslc-muted hover:text-white hover:border-white/30'
+                        : 'border-transparent text-gslc-muted hover:text-gslc-gold hover:border-gslc-red'
                     }`
                   }
                 >
@@ -121,8 +121,8 @@ export default function Navbar() {
                   className={({ isActive }) =>
                     `block px-4 py-2 rounded-md font-display text-sm tracking-widest no-underline ${
                       isActive
-                        ? 'bg-gslc-gold/15 text-gslc-gold'
-                        : 'text-gslc-muted hover:text-white hover:bg-white/5'
+                        ? 'bg-gslc-red text-gslc-gold'
+                        : 'text-gslc-muted hover:text-gslc-gold hover:bg-gslc-red/20'
                     }`
                   }
                 >

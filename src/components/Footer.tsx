@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <footer className="border-t border-gslc-gold/10 bg-gslc-dark/80 mt-auto">
+    <footer className="border-t-2 border-gslc-gold bg-gslc-black mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
@@ -20,7 +20,7 @@ export default function Footer() {
 
           {/* Quick links */}
           <div>
-            <h4 className="font-display text-lg tracking-wide text-white mb-3">Quick Links</h4>
+            <h4 className="font-display text-lg tracking-wide text-gslc-red mb-3">Quick Links</h4>
             <ul className="space-y-2 list-none p-0 m-0">
               {[
                 { to: '/teams', label: 'Teams' },
@@ -38,7 +38,7 @@ export default function Footer() {
 
           {/* Legal */}
           <div>
-            <h4 className="font-display text-lg tracking-wide text-white mb-3">Legal</h4>
+            <h4 className="font-display text-lg tracking-wide text-gslc-red mb-3">Legal</h4>
             <ul className="space-y-2 list-none p-0 m-0">
               {[
                 { to: '/impressum', label: 'Impressum' },

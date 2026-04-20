@@ -17,7 +17,7 @@ export default function MatchCard({ match, teams }: Props) {
         : 'bg-gslc-gold/15 text-gslc-gold'
 
   return (
-    <div className="rounded-xl border border-gslc-border bg-gslc-card p-5 transition-all duration-300 hover:border-gslc-gold">
+    <div className="rounded-xl border-2 border-gslc-border bg-gslc-card p-5 transition-all duration-300 hover:border-gslc-red">
       {/* Status + Date */}
       <div className="flex items-center justify-between mb-4">
         <span className={`text-[11px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full ${statusColor}`}>
@@ -45,7 +45,7 @@ export default function MatchCard({ match, teams }: Props) {
           {match.homeScore && <p className="text-lg font-display text-gslc-gold">{match.homeScore}</p>}
         </div>
 
-        <span className="font-display text-2xl text-gslc-muted/40">VS</span>
+        <span className="font-display text-2xl text-gslc-red">VS</span>
 
         <div className="text-center flex-1">
           <div

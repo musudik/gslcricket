@@ -28,12 +28,12 @@ export default function PointsTable() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
-          <h1 className="font-display text-4xl sm:text-5xl tracking-wide text-white m-0">Points Table</h1>
+          <h1 className="font-display text-4xl sm:text-5xl tracking-wide text-gslc-gold m-0">Points Table</h1>
 
           <select
             value={stateFilter}
             onChange={(e) => setStateFilter(e.target.value)}
-            className="bg-gslc-card border border-gslc-border rounded-lg px-3 py-2 text-sm text-gslc-text focus:outline-none focus:border-gslc-gold/50 w-fit"
+            className="bg-gslc-black border-2 border-gslc-gold rounded-lg px-3 py-2 text-sm text-gslc-text focus:outline-none focus:border-gslc-red w-fit"
           >
             <option value="all">All States</option>
             {states.map((s) => (
@@ -43,10 +43,10 @@ export default function PointsTable() {
         </div>
 
         {filtered.length > 0 ? (
-          <div className="overflow-x-auto rounded-xl border border-gslc-border">
+          <div className="overflow-x-auto rounded-xl border-2 border-gslc-red">
             <table className="w-full text-sm">
-              <thead className="bg-gslc-card">
-                <tr className="text-gslc-muted">
+              <thead className="bg-gslc-red">
+                <tr className="text-gslc-gold">
                   <th className="py-3 px-4 text-left font-medium w-10">#</th>
                   <th className="py-3 px-4 text-left font-medium">Team</th>
                   <th className="py-3 px-4 text-center font-medium">P</th>
@@ -104,8 +104,8 @@ export default function PointsTable() {
             </table>
 
             {/* Playoff zone legend */}
-            <div className="px-4 py-3 border-t border-gslc-border bg-gslc-card text-xs text-gslc-muted flex items-center gap-2">
-              <div className="w-3 h-3 rounded-sm bg-gslc-gold/20 border border-gslc-gold/30" />
+            <div className="px-4 py-3 border-t-2 border-gslc-red bg-gslc-black text-xs text-gslc-gold flex items-center gap-2">
+              <div className="w-3 h-3 rounded-sm bg-gslc-gold border border-gslc-gold" />
               <span>Playoff qualification zone (Top 4)</span>
             </div>
           </div>

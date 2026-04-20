@@ -27,11 +27,11 @@ export default function Teams() {
           {/* Header */}
           <div className="mb-8">
             <div className="flex items-center gap-2 mb-2">
-              <span className="px-2.5 py-0.5 rounded bg-gslc-gold/10 text-gslc-gold font-display text-sm tracking-wider">
+              <span className="px-2.5 py-0.5 rounded bg-gslc-red text-gslc-gold font-display text-sm tracking-wider">
                 {state?.code}
               </span>
             </div>
-            <h1 className="font-display text-4xl sm:text-5xl tracking-wide text-white m-0">
+            <h1 className="font-display text-4xl sm:text-5xl tracking-wide text-gslc-gold m-0">
               {state?.name ?? 'Unknown State'}
             </h1>
             <p className="text-gslc-muted mt-2">{stateTeams.length} of 12 teams registered</p>
@@ -65,7 +65,7 @@ export default function Teams() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="mb-8">
-          <h1 className="font-display text-4xl sm:text-5xl tracking-wide text-white m-0">Teams</h1>
+          <h1 className="font-display text-4xl sm:text-5xl tracking-wide text-gslc-gold m-0">Teams</h1>
           <p className="text-gslc-muted mt-2">Select a state to view its teams</p>
         </div>
 

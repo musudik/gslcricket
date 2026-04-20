@@ -46,13 +46,14 @@ export default function Home() {
         {/* Layered overlays for depth */}
         <div className="absolute inset-0 bg-gslc-black/70" />
         <div className="absolute inset-0 bg-gslc-black/40" />
-        {/* Bottom accent bars */}
+        {/* Bottom German tricolor bar */}
         <div className="absolute bottom-0 left-0 w-full h-1 bg-gslc-gold" />
-        <div className="absolute bottom-1 left-0 w-full h-px bg-gslc-red" />
+        <div className="absolute bottom-1 left-0 w-full h-1 bg-gslc-red" />
+        <div className="absolute bottom-2 left-0 w-full h-1 bg-black" />
 
         {/* Corner accents */}
-        <div className="absolute top-0 left-0 w-32 h-32 border-t-2 border-l-2 border-gslc-gold m-6" />
-        <div className="absolute bottom-0 right-0 w-32 h-32 border-b-2 border-r-2 border-gslc-red m-6" />
+        <div className="absolute top-0 left-0 w-40 h-40 border-t-4 border-l-4 border-gslc-gold m-6" />
+        <div className="absolute bottom-0 right-0 w-40 h-40 border-b-4 border-r-4 border-gslc-red m-6" />
 
         {/* Content */}
         <div className={`relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full transition-all duration-1000 ${heroLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
@@ -69,25 +70,25 @@ export default function Home() {
             </div>
 
             <h1 className="font-display text-6xl sm:text-8xl lg:text-9xl tracking-wider text-white leading-[0.9] mb-6 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-              GERMAN
+              <span className="text-white">GERMAN</span>
               <br />
-              <span className="text-gslc-gold font-display">
+              <span className="text-gslc-red font-display">
                 SUPER LEAGUE
               </span>
               <br />
-              CRICKET
+              <span className="text-gslc-gold">CRICKET</span>
             </h1>
 
             <p className="text-lg sm:text-2xl text-white/70 max-w-xl mb-10 leading-relaxed font-light animate-fade-in-up" style={{ animationDelay: '600ms' }}>
               16 states. 250+ teams, 14K players. One champion.
               <br />
-              <span className="text-gslc-gold font-medium">The biggest cricket league in Germany.</span>
+              <span className="text-gslc-red font-medium">The biggest cricket league in Germany.</span>
             </p>
 
             <div className="flex flex-wrap gap-4 animate-fade-in-up" style={{ animationDelay: '800ms' }}>
               <Link
                 to="/teams"
-                className="group px-8 py-4 bg-gslc-gold text-gslc-black font-bold rounded-lg transition-all no-underline text-sm uppercase tracking-wider hover:scale-105"
+                className="group px-8 py-4 bg-gslc-gold text-gslc-black font-bold rounded-lg transition-all no-underline text-sm uppercase tracking-wider hover:bg-gslc-red hover:text-white hover:scale-105"
               >
                 Explore Teams
                 <span className="inline-block ml-2 transition-transform group-hover:translate-x-1">→</span>
@@ -112,20 +113,22 @@ export default function Home() {
       {/* ═══ TEASER VIDEO SECTION ═══ */}
       <section className="relative py-20 overflow-hidden">
         {/* Background */}
-        <div className="absolute inset-0 bg-gslc-dark" />
+        <div className="absolute inset-0 bg-gslc-black" />
+        {/* Top red accent bar */}
+        <div className="absolute top-0 left-0 w-full h-1 bg-gslc-red" />
 
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <span className="text-xs font-bold tracking-[0.3em] uppercase text-gslc-red">Featured</span>
+            <span className="text-xs font-bold tracking-[0.3em] uppercase text-gslc-red border border-gslc-red px-3 py-1 rounded-full">Featured</span>
             <h2 className="font-display text-4xl sm:text-5xl tracking-wider text-white mt-2 mb-0">
               MUNICH <span className="text-gslc-gold">SIXERS</span>
             </h2>
           </div>
 
-          <div className="relative rounded-2xl overflow-hidden border border-gslc-border">
+          <div className="relative rounded-2xl overflow-hidden border-2 border-gslc-red">
             {/* Accent corners */}
-            <div className="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-gslc-gold z-10 rounded-tl-2xl" />
-            <div className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-gslc-red z-10 rounded-br-2xl" />
+            <div className="absolute top-0 left-0 w-16 h-16 border-t-4 border-l-4 border-gslc-gold z-10 rounded-tl-2xl" />
+            <div className="absolute bottom-0 right-0 w-16 h-16 border-b-4 border-r-4 border-gslc-gold z-10 rounded-br-2xl" />
 
             <video
               className="w-full aspect-video object-cover"
@@ -144,8 +147,8 @@ export default function Home() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="flex items-center justify-between mb-8">
             <div className="flex items-center gap-3">
-              <div className="w-1 h-8 bg-gslc-red rounded-full" />
-              <h2 className="font-display text-3xl tracking-wider text-white m-0">Upcoming Fixtures</h2>
+              <div className="w-1.5 h-8 bg-gslc-red rounded-full" />
+              <h2 className="font-display text-3xl tracking-wider text-gslc-gold m-0">Upcoming Fixtures</h2>
             </div>
             <Link to="/matches" className="text-sm text-gslc-gold hover:text-gslc-gold-hot transition-colors no-underline font-medium">
               View all →
@@ -163,8 +166,8 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center gap-3">
-            <div className="w-1 h-8 bg-gslc-gold rounded-full" />
-            <h2 className="font-display text-3xl tracking-wider text-white m-0">State Leagues</h2>
+            <div className="w-1.5 h-8 bg-gslc-gold rounded-full" />
+            <h2 className="font-display text-3xl tracking-wider text-gslc-red m-0">State Leagues</h2>
           </div>
           <span className="text-sm text-gslc-muted font-medium">{states.length} States</span>
         </div>
@@ -176,8 +179,8 @@ export default function Home() {
       </section>
 
       {/* ═══ STATS BANNER ═══ */}
-      <section className="relative border-y border-gslc-border overflow-hidden">
-        <div className="absolute inset-0 bg-gslc-dark" />
+      <section className="relative border-y-2 border-gslc-red overflow-hidden">
+        <div className="absolute inset-0 bg-gslc-black" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
             { value: '16', label: 'States', color: 'text-gslc-gold' },

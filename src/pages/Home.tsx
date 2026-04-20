@@ -69,15 +69,16 @@ export default function Home() {
               <div className="w-1.5 h-1.5 rounded-full bg-gslc-lime animate-pulse" />
             </div>
 
-            <h1 className="font-display text-6xl sm:text-8xl lg:text-9xl tracking-wider leading-[0.9] mb-6 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-              <span className="text-gslc-gold">GERMAN</span>
+            <h1 className="font-display text-6xl sm:text-8xl lg:text-9xl tracking-wider leading-[0.9] mb-2 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
+              <span className="text-black" style={{ WebkitTextStroke: '1px #FFCC00' }}>GERMAN</span>
               <br />
-              <span className="text-gslc-red font-display">
-                SUPER LEAGUE
-              </span>
+              <span className="text-gslc-red">SUPER</span>
               <br />
-              <span className="text-gslc-gold">CRICKET</span>
+              <span className="text-gslc-gold">LEAGUE</span>
             </h1>
+            <p className="font-display text-2xl sm:text-3xl tracking-widest text-gslc-muted uppercase mb-6 animate-fade-in-up" style={{ animationDelay: '500ms' }}>
+              Cricket
+            </p>
 
             <p className="text-lg sm:text-2xl text-gslc-muted max-w-xl mb-10 leading-relaxed font-light animate-fade-in-up" style={{ animationDelay: '600ms' }}>
               16 states. 250+ teams, 14K players. One champion.

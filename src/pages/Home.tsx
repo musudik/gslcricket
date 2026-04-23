@@ -52,9 +52,7 @@ export default function Home() {
         <div className="absolute bottom-1 left-0 w-full h-1 bg-gslc-red" />
         <div className="absolute bottom-2 left-0 w-full h-1 bg-gslc-black" />
 
-        {/* Corner accents */}
-        <div className="absolute top-0 left-0 w-40 h-40 border-t-4 border-l-4 border-gslc-gold m-6 hero-corner-gold" />
-        <div className="absolute bottom-0 right-0 w-40 h-40 border-b-4 border-r-4 border-gslc-red m-6 hero-corner-red" />
+
 
         {/* DCB logo */}
         <div className="absolute top-5 right-4 sm:top-8 sm:right-8 z-20">

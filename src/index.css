@@ -166,24 +166,24 @@ body {
   filter: drop-shadow(0 6px 24px rgba(3,4,8,0.92));
 }
 
-/* SUPER — red polished chrome via gradient fill */
+/* SUPER — wine-red polished chrome, visible against noir black */
 .hero-title-red {
   background: linear-gradient(
     180deg,
-    #ff4400  0%,
-    #ff2200 10%,
-    #cc1200 32%,
-    #8a0000 55%,
-    #aa0a00 70%,
-    #cc1200 84%,
-    #ff2200 100%
+    #e8607a  0%,
+    #c8203a 10%,
+    #991030 30%,
+    #6b0020 52%,
+    #8a0828 68%,
+    #b81032 82%,
+    #dd3050 100%
   );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   filter:
-    drop-shadow(0 4px 20px rgba(204,18,0,0.80))
-    drop-shadow(0 0 44px rgba(255,68,0,0.32));
+    drop-shadow(0 4px 22px rgba(150,10,36,0.75))
+    drop-shadow(0 0 48px rgba(200,32,60,0.28));
 }
 
 /* LEAGUE — molten amber-gold chrome with animated light-sweep */

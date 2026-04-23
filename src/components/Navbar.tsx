@@ -19,38 +19,29 @@ function ThemeToggle() {
       title={isGerman ? 'Switch to Classic theme' : 'Switch to German Metallic theme'}
       aria-label="Toggle color theme"
       className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border transition-all duration-300 text-xs font-display tracking-wider select-none cursor-pointer"
-      style={
-        isGerman
-          ? {
-              borderColor: 'rgba(255,206,0,0.4)',
-              background: 'rgba(255,206,0,0.06)',
-              color: '#FFCE00',
-            }
-          : {
-              borderColor: 'rgba(255,215,0,0.3)',
-              background: 'rgba(255,215,0,0.05)',
-              color: '#FFD700',
-            }
-      }
+      style={{
+        borderColor: 'var(--color-gslc-gold)',
+        background: 'var(--color-gslc-black)',
+        color: 'var(--color-gslc-gold-hot)',
+      }}
     >
       {/* German flag stripes icon */}
       {isGerman ? (
         <>
           <span className="flex flex-col gap-px w-4 h-3.5 rounded-sm overflow-hidden shrink-0">
-            <span className="flex-1 block" style={{ background: '#000' }} />
-            <span className="flex-1 block" style={{ background: '#CC0000' }} />
-            <span className="flex-1 block" style={{ background: '#FFCE00' }} />
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-black)' }} />
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-red)' }} />
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-gold)' }} />
           </span>
           <span>Metallic</span>
         </>
       ) : (
         <>
-          <span
-            className="w-4 h-3.5 rounded-sm shrink-0"
-            style={{
-              background: 'conic-gradient(#0a0b14 0 25%, #FF003C 25% 75%, #FFD700 75%)',
-            }}
-          />
+          <span className="flex flex-col gap-px w-4 h-3.5 rounded-sm overflow-hidden shrink-0">
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-black)' }} />
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-red)' }} />
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-gold)' }} />
+          </span>
           <span>Classic</span>
         </>
       )}
@@ -64,7 +55,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50">
       {/* Main bar: Logo + Navigation */}
-      <div className="bg-gslc-black/95 backdrop-blur-xl border-b border-gslc-gold/10">
+      <div className="bg-gslc-black/95 backdrop-blur-xl border-b-2 border-gslc-red">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Site Logo — 3x bigger */}
@@ -72,7 +63,7 @@ export default function Navbar() {
               <img
                 src="/logo.png"
                 alt="GSLC"
-                className="h-20 w-auto object-contain drop-shadow-[0_0_16px_rgba(255,215,0,0.35)]"
+                className="h-20 w-auto object-contain"
               />
             </Link>
 
@@ -87,14 +78,14 @@ export default function Navbar() {
                     `px-5 py-1.5 font-display text-base tracking-widest transition-colors no-underline border-b-2 ${
                       isActive
                         ? 'border-gslc-gold text-gslc-gold'
-                        : 'border-transparent text-gslc-muted hover:text-white hover:border-white/30'
+                        : 'border-transparent text-gslc-muted hover:text-gslc-gold hover:border-gslc-red'
                     }`
                   }
                 >
                   {link.label}
                 </NavLink>
               ))}
-              <div className="ml-3 border-l border-white/10 pl-3">
+              <div className="ml-3 border-l border-gslc-border pl-3">
                 <ThemeToggle />
               </div>
             </div>
@@ -102,7 +93,7 @@ export default function Navbar() {
             {/* Mobile hamburger */}
             <button
               onClick={() => setOpen(!open)}
-              className="md:hidden p-2 text-gslc-muted hover:text-white"
+              className="md:hidden p-2 text-gslc-muted hover:text-gslc-gold"
               aria-label="Toggle navigation"
             >
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -130,8 +121,8 @@ export default function Navbar() {
                   className={({ isActive }) =>
                     `block px-4 py-2 rounded-md font-display text-sm tracking-widest no-underline ${
                       isActive
-                        ? 'bg-gslc-gold/15 text-gslc-gold'
-                        : 'text-gslc-muted hover:text-white hover:bg-white/5'
+                        ? 'bg-gslc-red text-gslc-gold'
+                        : 'text-gslc-muted hover:text-gslc-gold hover:bg-gslc-red/20'
                     }`
                   }
                 >

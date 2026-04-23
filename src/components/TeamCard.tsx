@@ -15,19 +15,19 @@ export default function TeamCard({ team, stateId }: Props) {
       {/* Team color accent bar */}
       <div
         className="absolute top-0 left-0 w-1 h-full"
-        style={{ background: team.primaryColor || '#FFCC00' }}
+        style={{ background: team.primaryColor || 'var(--color-gslc-gold)' }}
       />
 
       <div className="pl-3">
         <div className="flex items-center gap-3 mb-2">
           <div
-            className="w-10 h-10 rounded-lg flex items-center justify-center text-white font-display text-lg"
-            style={{ background: team.primaryColor || '#FFCC00' }}
+            className="w-10 h-10 rounded-lg flex items-center justify-center text-gslc-black font-display text-lg"
+            style={{ background: team.primaryColor || 'var(--color-gslc-gold)' }}
           >
             {team.shortName.slice(0, 2)}
           </div>
           <div>
-            <h3 className="font-display text-lg tracking-wide text-white group-hover:text-gslc-gold transition-colors m-0">
+            <h3 className="font-display text-lg tracking-wide text-gslc-gold group-hover:text-gslc-red transition-colors m-0">
               {team.name}
             </h3>
             <span className="text-xs text-gslc-muted">{team.shortName}</span>

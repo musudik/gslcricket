@@ -2,74 +2,74 @@
 
 /* ════════════════════════════════════════════════════════════════════════════
    THEME SYSTEM
-   • data-theme="german"  → Metallic Black/Red/Yellow (DEFAULT)
-   • data-theme="classic" → Dark Navy / Neon (original)
+  • data-theme="german"  → Cinematic Black/Red/Gold (DEFAULT)
+  • data-theme="classic" → Deep Black/Red/Gold (legacy toggle)
    ════════════════════════════════════════════════════════════════════════════ */
 
-/* ── Classic theme values (the original neon-navy look) ─────────────────── */
+/* ── Classic theme values (deep red / burnished gold / black) ───────────── */
 :root[data-theme="classic"],
 [data-theme="classic"] {
-  --color-gslc-black:      #05050a;
-  --color-gslc-dark:       #0a0b14;
-  --color-gslc-card:       #111220;
-  --color-gslc-border:     #1e2038;
-  --color-gslc-red:        #FF003C;
-  --color-gslc-red-light:  #FF3366;
-  --color-gslc-red-glow:   #ff003c66;
-  --color-gslc-gold:       #FFD700;
-  --color-gslc-gold-hot:   #FFEA00;
-  --color-gslc-gold-dim:   #c9a800;
-  --color-gslc-gold-glow:  #ffd70055;
-  --color-gslc-electric:   #00E5FF;
-  --color-gslc-lime:       #AAFF00;
-  --color-gslc-text:       #eeeef6;
-  --color-gslc-muted:      #7b7d9e;
-  --font-gslc-display:     "Barlow Condensed", sans-serif;
-  --font-gslc-body:        "DM Sans", system-ui, sans-serif;
-  --font-gslc-display-weight: 900;
+  --color-gslc-black:      #070709;
+  --color-gslc-dark:       #0f1013;
+  --color-gslc-card:       #130f0b;
+  --color-gslc-border:     #3f2f1d;
+  --color-gslc-red:        #c93227;
+  --color-gslc-red-light:  #f85f4c;
+  --color-gslc-red-glow:   #ff7f60;
+  --color-gslc-gold:       #c9973f;
+  --color-gslc-gold-hot:   #efc777;
+  --color-gslc-gold-dim:   #845f27;
+  --color-gslc-gold-glow:  #f4d08f;
+  --color-gslc-electric:   #f4d08f;
+  --color-gslc-lime:       #efc777;
+  --color-gslc-text:       #ebd6b4;
+  --color-gslc-muted:      #ae9570;
+  --font-gslc-display:     "Oswald", sans-serif;
+  --font-gslc-body:        "IBM Plex Sans", system-ui, sans-serif;
+  --font-gslc-display-weight: 700;
 }
 
-/* ── German Metallic theme (DEFAULT) ─────────────────────────────────────── */
+/* ── German metallic theme (DEFAULT) — cinematic red / gold / black ─────── */
 :root[data-theme="german"],
 [data-theme="german"],
 :root:not([data-theme]),
 :not([data-theme]) {
-  --color-gslc-black:      #000000;
-  --color-gslc-dark:       #0d0d0d;
-  --color-gslc-card:       #141414;
-  --color-gslc-border:     #2a2a2a;
-  --color-gslc-red:        #CC0000;
-  --color-gslc-red-light:  #E60000;
-  --color-gslc-red-glow:   #cc000060;
-  --color-gslc-gold:       #FFCE00;
-  --color-gslc-gold-hot:   #FFE033;
-  --color-gslc-gold-dim:   #A88B00;
-  --color-gslc-gold-glow:  #ffce0055;
-  --color-gslc-electric:   #B0B0B0;
-  --color-gslc-lime:       #FFCE00;
-  --color-gslc-text:       #F0F0F0;
-  --color-gslc-muted:      #888888;
+  --color-gslc-black:      #08090b;
+  --color-gslc-dark:       #111317;
+  --color-gslc-card:       #16110c;
+  --color-gslc-border:     #4b3720;
+  --color-gslc-red:        #d63a2e;
+  --color-gslc-red-light:  #ff6652;
+  --color-gslc-red-glow:   #ff8a68;
+  --color-gslc-gold:       #d6a64c;
+  --color-gslc-gold-hot:   #f7cf85;
+  --color-gslc-gold-dim:   #8f6b2f;
+  --color-gslc-gold-glow:  #ffd99b;
+  --color-gslc-electric:   #ffd99b;
+  --color-gslc-lime:       #f7cf85;
+  --color-gslc-text:       #f4debc;
+  --color-gslc-muted:      #b89f79;
   --font-gslc-display:     "Oswald", sans-serif;
   --font-gslc-body:        "IBM Plex Sans", system-ui, sans-serif;
   --font-gslc-display-weight: 700;
 }
 
 @theme {
-  --color-gslc-black: #000000;
-  --color-gslc-dark: #0d0d0d;
-  --color-gslc-card: #141414;
-  --color-gslc-border: #2a2a2a;
-  --color-gslc-red: #CC0000;
-  --color-gslc-red-light: #E60000;
-  --color-gslc-red-glow: #cc000060;
-  --color-gslc-gold: #FFCE00;
-  --color-gslc-gold-hot: #FFE033;
-  --color-gslc-gold-dim: #A88B00;
-  --color-gslc-gold-glow: #ffce0055;
-  --color-gslc-electric: #B0B0B0;
-  --color-gslc-lime: #FFCE00;
-  --color-gslc-text: #F0F0F0;
-  --color-gslc-muted: #888888;
+  --color-gslc-black: #08090b;
+  --color-gslc-dark: #111317;
+  --color-gslc-card: #16110c;
+  --color-gslc-border: #4b3720;
+  --color-gslc-red: #d63a2e;
+  --color-gslc-red-light: #ff6652;
+  --color-gslc-red-glow: #ff8a68;
+  --color-gslc-gold: #d6a64c;
+  --color-gslc-gold-hot: #f7cf85;
+  --color-gslc-gold-dim: #8f6b2f;
+  --color-gslc-gold-glow: #ffd99b;
+  --color-gslc-electric: #ffd99b;
+  --color-gslc-lime: #f7cf85;
+  --color-gslc-text: #f4debc;
+  --color-gslc-muted: #b89f79;
 
   --font-display: "Oswald", sans-serif;
   --font-body: "IBM Plex Sans", system-ui, sans-serif;
@@ -84,41 +84,35 @@
 
 body {
   margin: 0;
-  background: var(--color-gslc-black);
+  background-color: var(--color-gslc-black);
+  background-image:
+    radial-gradient(circle at 22% 18%, color-mix(in srgb, var(--color-gslc-gold-glow) 20%, transparent), transparent 36%),
+    radial-gradient(circle at 78% 10%, color-mix(in srgb, var(--color-gslc-red-glow) 20%, transparent), transparent 42%),
+    linear-gradient(165deg, var(--color-gslc-black) 0%, #0f1218 50%, #08090b 100%);
   color: var(--color-gslc-text);
   font-family: var(--font-gslc-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* ── German theme: metallic body texture ─────────────────────────────────── */
 [data-theme="german"] body,
-:root:not([data-theme]) body {
-  background-image:
-    radial-gradient(ellipse 70% 35% at 50% -5%, rgba(204,0,0,0.07) 0%, transparent 65%),
-    radial-gradient(ellipse 50% 25% at 90% 105%, rgba(255,206,0,0.05) 0%, transparent 55%);
-}
-
-/* ── Classic theme: neon-navy body texture ───────────────────────────────── */
+:root:not([data-theme]) body,
 [data-theme="classic"] body {
-  background-image:
-    radial-gradient(ellipse 70% 35% at 50% -5%, rgba(0,229,255,0.04) 0%, transparent 65%),
-    radial-gradient(ellipse 50% 25% at 90% 105%, rgba(255,0,60,0.04) 0%, transparent 55%);
+  background-attachment: fixed;
 }
 
-/* ── Glow utilities ──────────────────────────────────────────────────────── */
 .glow-gold {
-  box-shadow: 0 0 20px var(--color-gslc-gold-glow), 0 0 60px var(--color-gslc-gold-glow);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-gslc-gold) 30%, transparent), 0 0 18px color-mix(in srgb, var(--color-gslc-gold-glow) 30%, transparent);
 }
 .glow-red {
-  box-shadow: 0 0 20px var(--color-gslc-red-glow), 0 0 60px var(--color-gslc-red-glow);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-gslc-red) 35%, transparent), 0 0 16px color-mix(in srgb, var(--color-gslc-red-glow) 30%, transparent);
 }
 .text-glow-gold {
-  text-shadow: 0 0 30px var(--color-gslc-gold-glow), 0 0 80px var(--color-gslc-gold-glow);
+  text-shadow: 0 0 12px color-mix(in srgb, var(--color-gslc-gold-glow) 40%, transparent);
 }
 .text-glow-red {
-  text-shadow: 0 0 30px var(--color-gslc-red-glow);
+  text-shadow: 0 0 12px color-mix(in srgb, var(--color-gslc-red-glow) 35%, transparent);
 }
 
 /* ── Animations ──────────────────────────────────────────────────────────── */
@@ -157,16 +151,16 @@ body {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--color-gslc-dark);
+  background: var(--color-gslc-black);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-gslc-gold);
+  background: var(--color-gslc-red);
   border-radius: 4px;
 }
 
 ::selection {
-  background: rgba(255, 215, 0, 0.4);
-  color: #fff;
+  background: var(--color-gslc-red);
+  color: var(--color-gslc-gold-hot);
 }
 
 .scrollbar-none::-webkit-scrollbar {

@@ -11,13 +11,13 @@ export default function MatchCard({ match, teams }: Props) {
 
   const statusColor =
     match.status === 'live'
-      ? 'bg-gslc-red text-white'
+      ? 'bg-gslc-red text-gslc-gold'
       : match.status === 'completed'
         ? 'bg-gslc-muted/20 text-gslc-muted'
         : 'bg-gslc-gold/15 text-gslc-gold'
 
   return (
-    <div className="rounded-xl border border-gslc-border bg-gslc-card p-5 transition-all duration-300 hover:border-gslc-gold/30 hover:shadow-[0_0_30px_rgba(255,215,0,0.08)]">
+    <div className="rounded-xl border-2 border-gslc-border bg-gslc-card p-5 transition-all duration-300 hover:border-gslc-red">
       {/* Status + Date */}
       <div className="flex items-center justify-between mb-4">
         <span className={`text-[11px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full ${statusColor}`}>
@@ -36,25 +36,25 @@ export default function MatchCard({ match, teams }: Props) {
       <div className="flex items-center justify-between gap-4">
         <div className="text-center flex-1">
           <div
-            className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-white mb-1"
-            style={{ background: home?.primaryColor || '#444' }}
+            className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-gslc-black mb-1"
+            style={{ background: home?.primaryColor || 'var(--color-gslc-gold)' }}
           >
             {home?.shortName.slice(0, 2) || '??'}
           </div>
-          <p className="text-sm font-medium text-white truncate">{home?.shortName || 'TBD'}</p>
+          <p className="text-sm font-medium text-gslc-gold truncate">{home?.shortName || 'TBD'}</p>
           {match.homeScore && <p className="text-lg font-display text-gslc-gold">{match.homeScore}</p>}
         </div>
 
-        <span className="font-display text-2xl text-gslc-muted/40">VS</span>
+        <span className="font-display text-2xl text-gslc-red">VS</span>
 
         <div className="text-center flex-1">
           <div
-            className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-white mb-1"
-            style={{ background: away?.primaryColor || '#444' }}
+            className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-gslc-black mb-1"
+            style={{ background: away?.primaryColor || 'var(--color-gslc-gold)' }}
           >
             {away?.shortName.slice(0, 2) || '??'}
           </div>
-          <p className="text-sm font-medium text-white truncate">{away?.shortName || 'TBD'}</p>
+          <p className="text-sm font-medium text-gslc-gold truncate">{away?.shortName || 'TBD'}</p>
           {match.awayScore && <p className="text-lg font-display text-gslc-gold">{match.awayScore}</p>}
         </div>
       </div>

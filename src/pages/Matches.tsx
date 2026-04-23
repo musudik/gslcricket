@@ -32,14 +32,14 @@ export default function Matches() {
       </Helmet>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="font-display text-4xl sm:text-5xl tracking-wide text-white m-0 mb-8">Matches</h1>
+        <h1 className="font-display text-4xl sm:text-5xl tracking-wide text-gslc-gold m-0 mb-8">Matches</h1>
 
         {/* Filters */}
         <div className="flex flex-wrap gap-3 mb-8">
           <select
             value={stateFilter}
             onChange={(e) => setStateFilter(e.target.value)}
-            className="bg-gslc-card border border-gslc-border rounded-lg px-3 py-2 text-sm text-gslc-text focus:outline-none focus:border-gslc-gold/50"
+            className="bg-gslc-black border-2 border-gslc-gold rounded-lg px-3 py-2 text-sm text-gslc-text focus:outline-none focus:border-gslc-red"
           >
             <option value="all">All States</option>
             {states.map((s) => (
@@ -47,15 +47,15 @@ export default function Matches() {
             ))}
           </select>
 
-          <div className="flex rounded-lg border border-gslc-border overflow-hidden">
+          <div className="flex rounded-lg border-2 border-gslc-red overflow-hidden">
             {(['all', 'upcoming', 'live', 'completed'] as StatusFilter[]).map((status) => (
               <button
                 key={status}
                 onClick={() => setStatusFilter(status)}
                 className={`px-4 py-2 text-sm capitalize cursor-pointer transition-colors ${
                   statusFilter === status
-                    ? 'bg-gslc-gold/15 text-gslc-gold'
-                    : 'bg-gslc-card text-gslc-muted hover:text-white'
+                    ? 'bg-gslc-red text-gslc-gold font-bold'
+                    : 'bg-gslc-black text-gslc-muted hover:text-gslc-gold'
                 }`}
               >
                 {status}

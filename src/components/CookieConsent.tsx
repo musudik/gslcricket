@@ -17,7 +17,7 @@ export default function CookieConsent() {
 
   return (
     <div className="fixed bottom-0 inset-x-0 z-50 p-4">
-      <div className="max-w-3xl mx-auto bg-gslc-card border border-gslc-border rounded-xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center gap-4 shadow-2xl">
+      <div className="max-w-3xl mx-auto bg-gslc-black border-2 border-gslc-red rounded-xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center gap-4">
         <p className="text-sm text-gslc-muted flex-1">
           We use essential cookies to ensure this site works properly. No tracking cookies are used.
         </p>

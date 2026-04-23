@@ -46,6 +46,7 @@ export default function Home() {
         {/* Layered overlays for depth */}
         <div className="absolute inset-0 bg-gslc-black/70" />
         <div className="absolute inset-0 bg-gslc-black/40" />
+        <div className="absolute inset-0 hero-atmosphere pointer-events-none" />
         {/* Bottom German tricolor bar */}
         <div className="absolute bottom-0 left-0 w-full h-1 bg-gslc-gold" />
         <div className="absolute bottom-1 left-0 w-full h-1 bg-gslc-red" />
@@ -54,6 +55,16 @@ export default function Home() {
         {/* Corner accents */}
         <div className="absolute top-0 left-0 w-40 h-40 border-t-4 border-l-4 border-gslc-gold m-6" />
         <div className="absolute bottom-0 right-0 w-40 h-40 border-b-4 border-r-4 border-gslc-red m-6" />
+
+        {/* DCB logo */}
+        <div className="absolute top-5 right-4 sm:top-8 sm:right-8 z-20">
+          <img
+            src="/dcb-logo.png"
+            alt="DCB"
+            className="h-10 sm:h-12 w-auto opacity-95 hero-logo-shine"
+            loading="eager"
+          />
+        </div>
 
         {/* Content */}
         <div className={`relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full transition-all duration-1000 ${heroLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
@@ -70,11 +81,20 @@ export default function Home() {
             </div>
 
             <h1 className="font-display text-6xl sm:text-8xl lg:text-9xl tracking-wider leading-[0.9] mb-2 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-              <span className="text-gslc-black" style={{ WebkitTextStroke: '1px var(--color-gslc-gold-hot)' }}>GERMAN</span>
+              <span className="hero-word text-gslc-black" style={{ WebkitTextStroke: '1px var(--color-gslc-gold-hot)' }}>
+                GERMAN
+                <span className="hero-word-sheen" aria-hidden="true" />
+              </span>
               <br />
-              <span className="text-gslc-red">SUPER</span>
+              <span className="hero-word text-gslc-red">
+                SUPER
+                <span className="hero-word-sheen" aria-hidden="true" />
+              </span>
               <br />
-              <span className="text-gslc-gold">LEAGUE</span>
+              <span className="hero-word text-gslc-gold">
+                LEAGUE
+                <span className="hero-word-sheen" aria-hidden="true" />
+              </span>
             </h1>
             <p className="font-display text-2xl sm:text-3xl tracking-widest text-gslc-muted uppercase mb-6 animate-fade-in-up" style={{ animationDelay: '500ms' }}>
               Cricket

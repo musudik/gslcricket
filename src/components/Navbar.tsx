@@ -1,6 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react'
-import { useTheme } from '../context/ThemeContext'
 
 const links = [
   { to: '/', label: 'Home' },
@@ -8,46 +7,6 @@ const links = [
   { to: '/matches', label: 'Matches' },
   { to: '/points-table', label: 'Points Table' },
 ]
-
-function ThemeToggle() {
-  const { theme, setTheme } = useTheme()
-  const isGerman = theme === 'german'
-
-  return (
-    <button
-      onClick={() => setTheme(isGerman ? 'classic' : 'german')}
-      title={isGerman ? 'Switch to Classic theme' : 'Switch to German Metallic theme'}
-      aria-label="Toggle color theme"
-      className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border transition-all duration-300 text-xs font-display tracking-wider select-none cursor-pointer"
-      style={{
-        borderColor: 'var(--color-gslc-gold)',
-        background: 'var(--color-gslc-black)',
-        color: 'var(--color-gslc-gold-hot)',
-      }}
-    >
-      {/* German flag stripes icon */}
-      {isGerman ? (
-        <>
-          <span className="flex flex-col gap-px w-4 h-3.5 rounded-sm overflow-hidden shrink-0">
-            <span className="flex-1 block" style={{ background: 'var(--color-gslc-black)' }} />
-            <span className="flex-1 block" style={{ background: 'var(--color-gslc-red)' }} />
-            <span className="flex-1 block" style={{ background: 'var(--color-gslc-gold)' }} />
-          </span>
-          <span>Metallic</span>
-        </>
-      ) : (
-        <>
-          <span className="flex flex-col gap-px w-4 h-3.5 rounded-sm overflow-hidden shrink-0">
-            <span className="flex-1 block" style={{ background: 'var(--color-gslc-black)' }} />
-            <span className="flex-1 block" style={{ background: 'var(--color-gslc-red)' }} />
-            <span className="flex-1 block" style={{ background: 'var(--color-gslc-gold)' }} />
-          </span>
-          <span>Classic</span>
-        </>
-      )}
-    </button>
-  )
-}
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -85,9 +44,6 @@ export default function Navbar() {
                   {link.label}
                 </NavLink>
               ))}
-              <div className="ml-3 border-l border-gslc-border pl-3">
-                <ThemeToggle />
-              </div>
             </div>
 
             {/* Mobile hamburger */}
@@ -109,9 +65,6 @@ export default function Navbar() {
           {/* Mobile menu */}
           {open && (
             <div className="md:hidden pb-4 space-y-1">
-              <div className="px-4 pt-2 pb-1">
-                <ThemeToggle />
-              </div>
               {links.map((link) => (
                 <NavLink
                   key={link.to}

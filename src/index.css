@@ -1,39 +1,7 @@
 @import "tailwindcss";
 
-/* ════════════════════════════════════════════════════════════════════════════
-   THEME SYSTEM
-  • data-theme="german"  → Cinematic Black/Red/Gold (DEFAULT)
-  • data-theme="classic" → Deep Black/Red/Gold (legacy toggle)
-   ════════════════════════════════════════════════════════════════════════════ */
-
-/* ── Classic theme values (deep red / burnished gold / black) ───────────── */
-:root[data-theme="classic"],
-[data-theme="classic"] {
-  --color-gslc-black:      #070709;
-  --color-gslc-dark:       #0f1013;
-  --color-gslc-card:       #130f0b;
-  --color-gslc-border:     #3f2f1d;
-  --color-gslc-red:        #c93227;
-  --color-gslc-red-light:  #f85f4c;
-  --color-gslc-red-glow:   #ff7f60;
-  --color-gslc-gold:       #c9973f;
-  --color-gslc-gold-hot:   #efc777;
-  --color-gslc-gold-dim:   #845f27;
-  --color-gslc-gold-glow:  #f4d08f;
-  --color-gslc-electric:   #f4d08f;
-  --color-gslc-lime:       #efc777;
-  --color-gslc-text:       #ebd6b4;
-  --color-gslc-muted:      #ae9570;
-  --font-gslc-display:     "Oswald", sans-serif;
-  --font-gslc-body:        "IBM Plex Sans", system-ui, sans-serif;
-  --font-gslc-display-weight: 700;
-}
-
-/* ── German metallic theme (DEFAULT) — cinematic red / gold / black ─────── */
-:root[data-theme="german"],
-[data-theme="german"],
-:root:not([data-theme]),
-:not([data-theme]) {
+/* Active palette: cinematic red / gold / black */
+:root {
   --color-gslc-black:      #08090b;
   --color-gslc-dark:       #111317;
   --color-gslc-card:       #16110c;
@@ -96,9 +64,7 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-[data-theme="german"] body,
-:root:not([data-theme]) body,
-[data-theme="classic"] body {
+body {
   background-attachment: fixed;
 }
 

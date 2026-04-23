@@ -156,34 +156,27 @@ body {
     linear-gradient(158deg, rgba(232,144,10,0.08) 0%, transparent 36%, rgba(0,0,0,0.38) 100%);
 }
 
-/* GERMAN — engraved outlined metallic */
+/* GERMAN — engraved outlined metallic, no glow */
 .hero-title-german {
   -webkit-text-stroke: 2px var(--color-gslc-gold-hot);
   color: transparent;
-  text-shadow:
-    0  0  28px rgba(255,184,48,0.35),
-    0  0  60px rgba(232,144,10,0.18);
-  filter: drop-shadow(0 6px 24px rgba(3,4,8,0.92));
 }
 
-/* SUPER — wine-red polished chrome, visible against noir black */
+/* SUPER — cherry red chrome */
 .hero-title-red {
   background: linear-gradient(
     180deg,
-    #e8607a  0%,
-    #c8203a 10%,
-    #991030 30%,
-    #6b0020 52%,
-    #8a0828 68%,
-    #b81032 82%,
-    #dd3050 100%
+    #ff6680  0%,
+    #e8102e 12%,
+    #b00020 35%,
+    #7a0018 54%,
+    #b00020 72%,
+    #e8102e 88%,
+    #ff6680 100%
   );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter:
-    drop-shadow(0 4px 22px rgba(150,10,36,0.75))
-    drop-shadow(0 0 48px rgba(200,32,60,0.28));
 }
 
 /* LEAGUE — molten amber-gold chrome with animated light-sweep */
@@ -210,9 +203,6 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: metal-sweep 5.2s ease-in-out infinite alternate;
-  filter:
-    drop-shadow(0 6px 26px rgba(232,144,10,0.80))
-    drop-shadow(0 0 60px rgba(255,160,32,0.35));
 }
 
 /* Corner frame glow */

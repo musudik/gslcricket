@@ -53,15 +53,15 @@ export default function Home() {
         <div className="absolute bottom-2 left-0 w-full h-1 bg-gslc-black" />
 
         {/* Corner accents */}
-        <div className="absolute top-0 left-0 w-40 h-40 border-t-4 border-l-4 border-gslc-gold m-6" />
-        <div className="absolute bottom-0 right-0 w-40 h-40 border-b-4 border-r-4 border-gslc-red m-6" />
+        <div className="absolute top-0 left-0 w-40 h-40 border-t-4 border-l-4 border-gslc-gold m-6 hero-frame hero-frame-gold" />
+        <div className="absolute bottom-0 right-0 w-40 h-40 border-b-4 border-r-4 border-gslc-red m-6 hero-frame hero-frame-red" />
 
         {/* DCB logo */}
         <div className="absolute top-5 right-4 sm:top-8 sm:right-8 z-20">
           <img
             src="/dcb-logo.png"
             alt="DCB"
-            className="h-10 sm:h-12 w-auto opacity-95 hero-logo-shine"
+            className="h-14 sm:h-16 md:h-20 w-auto opacity-95 hero-logo-shine"
             loading="eager"
           />
         </div>
@@ -70,7 +70,7 @@ export default function Home() {
         <div className={`relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full transition-all duration-1000 ${heroLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="max-w-4xl">
             {/* Season badge */}
-            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-gslc-gold bg-gslc-black backdrop-blur-sm mb-8 animate-fade-in" style={{ animationDelay: '200ms' }}>
+            <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-gslc-gold bg-gslc-black backdrop-blur-sm mb-8 animate-fade-in hero-badge hero-metal-border" style={{ animationDelay: '200ms' }}>
               <div className="flex gap-1">
                 <div className="w-4 h-2.5 bg-black rounded-sm border border-gslc-border" />
                 <div className="w-4 h-2.5 bg-gslc-red rounded-sm" />
@@ -80,7 +80,7 @@ export default function Home() {
               <div className="w-1.5 h-1.5 rounded-full bg-gslc-lime animate-pulse" />
             </div>
 
-            <h1 className="font-display text-6xl sm:text-8xl lg:text-9xl tracking-wider leading-[0.9] mb-2 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
+            <h1 className="font-display text-6xl sm:text-8xl lg:text-9xl tracking-wider leading-[0.9] mb-2 animate-fade-in-up hero-title-block" style={{ animationDelay: '400ms' }}>
               <span className="hero-word text-gslc-black" style={{ WebkitTextStroke: '1px var(--color-gslc-gold-hot)' }}>
                 GERMAN
                 <span className="hero-word-sheen" aria-hidden="true" />
@@ -96,27 +96,27 @@ export default function Home() {
                 <span className="hero-word-sheen" aria-hidden="true" />
               </span>
             </h1>
-            <p className="font-display text-2xl sm:text-3xl tracking-widest text-gslc-muted uppercase mb-6 animate-fade-in-up" style={{ animationDelay: '500ms' }}>
+            <p className="font-display text-2xl sm:text-3xl tracking-widest text-gslc-muted uppercase mb-6 animate-fade-in-up hero-kicker" style={{ animationDelay: '500ms' }}>
               Cricket
             </p>
 
-            <p className="text-lg sm:text-2xl text-gslc-muted max-w-xl mb-10 leading-relaxed font-light animate-fade-in-up" style={{ animationDelay: '600ms' }}>
+            <p className="text-lg sm:text-2xl text-gslc-muted max-w-xl mb-10 leading-relaxed font-light animate-fade-in-up hero-copy" style={{ animationDelay: '600ms' }}>
               16 states. 250+ teams, 14K players. One champion.
               <br />
-              <span className="text-gslc-red font-medium">The biggest cricket league in Germany.</span>
+              <span className="text-gslc-red font-medium hero-copy-accent">The biggest cricket league in Germany.</span>
             </p>
 
             <div className="flex flex-wrap gap-4 animate-fade-in-up" style={{ animationDelay: '800ms' }}>
               <Link
                 to="/teams"
-                className="group px-8 py-4 bg-gslc-gold text-gslc-black font-bold rounded-lg transition-all no-underline text-sm uppercase tracking-wider hover:bg-gslc-red hover:text-gslc-gold hover:scale-105"
+                className="group px-8 py-4 bg-gslc-gold text-gslc-black font-bold rounded-lg transition-all no-underline text-sm uppercase tracking-wider hover:bg-gslc-red hover:text-gslc-gold hover:scale-105 hero-cta hero-cta-solid"
               >
                 Explore Teams
                 <span className="inline-block ml-2 transition-transform group-hover:translate-x-1">→</span>
               </Link>
               <Link
                 to="/matches"
-                className="px-8 py-4 border-2 border-gslc-red text-gslc-gold rounded-lg hover:bg-gslc-red hover:border-gslc-red hover:text-gslc-black transition-all no-underline text-sm uppercase tracking-wider"
+                className="px-8 py-4 border-2 border-gslc-red text-gslc-gold rounded-lg hover:bg-gslc-red hover:border-gslc-red hover:text-gslc-black transition-all no-underline text-sm uppercase tracking-wider hero-cta hero-cta-outline"
               >
                 View Fixtures
               </Link>

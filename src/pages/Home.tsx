@@ -49,7 +49,7 @@ export default function Home() {
         {/* Bottom German tricolor bar */}
         <div className="absolute bottom-0 left-0 w-full h-1 bg-gslc-gold" />
         <div className="absolute bottom-1 left-0 w-full h-1 bg-gslc-red" />
-        <div className="absolute bottom-2 left-0 w-full h-1 bg-black" />
+        <div className="absolute bottom-2 left-0 w-full h-1 bg-gslc-black" />
 
         {/* Corner accents */}
         <div className="absolute top-0 left-0 w-40 h-40 border-t-4 border-l-4 border-gslc-gold m-6" />
@@ -70,7 +70,7 @@ export default function Home() {
             </div>
 
             <h1 className="font-display text-6xl sm:text-8xl lg:text-9xl tracking-wider leading-[0.9] mb-2 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-              <span className="text-black" style={{ WebkitTextStroke: '1px #FFCC00' }}>GERMAN</span>
+              <span className="text-gslc-black" style={{ WebkitTextStroke: '1px var(--color-gslc-gold-hot)' }}>GERMAN</span>
               <br />
               <span className="text-gslc-red">SUPER</span>
               <br />

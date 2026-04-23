@@ -20,27 +20,27 @@ function ThemeToggle() {
       aria-label="Toggle color theme"
       className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border transition-all duration-300 text-xs font-display tracking-wider select-none cursor-pointer"
       style={{
-        borderColor: '#FFCC00',
-        background: '#000000',
-        color: '#FFCC00',
+        borderColor: 'var(--color-gslc-gold)',
+        background: 'var(--color-gslc-black)',
+        color: 'var(--color-gslc-gold-hot)',
       }}
     >
       {/* German flag stripes icon */}
       {isGerman ? (
         <>
           <span className="flex flex-col gap-px w-4 h-3.5 rounded-sm overflow-hidden shrink-0">
-            <span className="flex-1 block" style={{ background: '#000000' }} />
-            <span className="flex-1 block" style={{ background: '#DD0000' }} />
-            <span className="flex-1 block" style={{ background: '#FFCC00' }} />
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-black)' }} />
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-red)' }} />
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-gold)' }} />
           </span>
           <span>Metallic</span>
         </>
       ) : (
         <>
           <span className="flex flex-col gap-px w-4 h-3.5 rounded-sm overflow-hidden shrink-0">
-            <span className="flex-1 block" style={{ background: '#000000' }} />
-            <span className="flex-1 block" style={{ background: '#DD0000' }} />
-            <span className="flex-1 block" style={{ background: '#FFCC00' }} />
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-black)' }} />
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-red)' }} />
+            <span className="flex-1 block" style={{ background: 'var(--color-gslc-gold)' }} />
           </span>
           <span>Classic</span>
         </>

@@ -78,7 +78,7 @@ export default function PointsTable() {
                         <div className="flex items-center gap-3">
                           <div
                             className="w-8 h-8 rounded flex items-center justify-center font-display text-sm text-gslc-black shrink-0"
-                            style={{ background: team?.primaryColor || '#FFCC00' }}
+                            style={{ background: team?.primaryColor || 'var(--color-gslc-gold)' }}
                           >
                             {team?.shortName.slice(0, 2) || '??'}
                           </div>

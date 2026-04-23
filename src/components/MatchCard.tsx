@@ -37,7 +37,7 @@ export default function MatchCard({ match, teams }: Props) {
         <div className="text-center flex-1">
           <div
             className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-gslc-black mb-1"
-            style={{ background: home?.primaryColor || '#FFCC00' }}
+            style={{ background: home?.primaryColor || 'var(--color-gslc-gold)' }}
           >
             {home?.shortName.slice(0, 2) || '??'}
           </div>
@@ -50,7 +50,7 @@ export default function MatchCard({ match, teams }: Props) {
         <div className="text-center flex-1">
           <div
             className="w-12 h-12 rounded-lg mx-auto flex items-center justify-center font-display text-lg text-gslc-black mb-1"
-            style={{ background: away?.primaryColor || '#FFCC00' }}
+            style={{ background: away?.primaryColor || 'var(--color-gslc-gold)' }}
           >
             {away?.shortName.slice(0, 2) || '??'}
           </div>
